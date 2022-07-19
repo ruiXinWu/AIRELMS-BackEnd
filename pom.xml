@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.roncoo</groupId>
+    <artifactId>roncoo-education</artifactId>
+    <version>10.0.0-RELEASE</version>
+    <packaging>pom</packaging>
+
+    <name>roncoo-education</name>
+    <description>领课教育-分布式在线教育开源系统</description>
+    <url>http://www.roncoo.net</url>
+
+    <organization>
+        <name>LingKe, Co., Ltd.</name>
+        <url>http://www.roncoo.net</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>fengyongwei</name>
+            <email>fengyw@roncoo.com</email>
+            <organization>LingKe, Co., Ltd.</organization>
+            <organizationUrl>http://www.roncoo.net</organizationUrl>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>+8</timezone>
+        </developer>
+        <developer>
+            <name>liaohr</name>
+            <email>liaohr@roncoo.com</email>
+            <organization>LingKe, Co., Ltd.</organization>
+            <organizationUrl>http://www.roncoo.net</organizationUrl>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>+8</timezone>
+        </developer>
+        <developer>
+            <name>keyh</name>
+            <email>keyh@roncoo.com</email>
+            <organization>LingKe, Co., Ltd.</organization>
+            <organizationUrl>http://www.roncoo.net</organizationUrl>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>+8</timezone>
+        </developer>
+        <developer>
+            <name>yangzj</name>
+            <organization>LingKe, Co., Ltd.</organization>
+            <organizationUrl>http://www.roncoo.net</organizationUrl>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>+8</timezone>
+        </developer>
+        <developer>
+            <name>wuy</name>
+            <organization>LingKe, Co., Ltd.</organization>
+            <organizationUrl>http://www.roncoo.net</organizationUrl>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>+8</timezone>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- spring boot -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <version>2.3.5.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+                <version>2.2.6.RELEASE</version>
+            </dependency>
+
+            <!-- spring cloud -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Hoxton.SR9</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- spring cloud alibaba -->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2.2.6.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- com.roncoo -->
+            <dependency>
+                <groupId>com.roncoo</groupId>
+                <artifactId>roncoo-education-course-feign</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.roncoo</groupId>
+                <artifactId>roncoo-education-system-feign</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.roncoo</groupId>
+                <artifactId>roncoo-education-user-feign</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.roncoo</groupId>
+                <artifactId>roncoo-education-common-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.roncoo</groupId>
+                <artifactId>roncoo-education-common-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <!-- spring boot -->
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <configuration>
+                        <executable>true</executable>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>repackage</goal>
+                                <goal>build-info</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <!-- compiler -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>${java.version}</source>
+                        <target>${java.version}</target>
+                        <skip>true</skip>
+                        <encoding>${project.build.sourceEncoding}</encoding>
+                    </configuration>
+                </plugin>
+
+                <!-- sonar -->
+                <plugin>
+                    <groupId>org.sonarsource.scanner.maven</groupId>
+                    <artifactId>sonar-maven-plugin</artifactId>
+                    <version>3.6.0.1398</version>
+                </plugin>
+
+                <!-- https://github.com/spotify/dockerfile-maven -->
+                <plugin>
+                    <groupId>com.spotify</groupId>
+                    <artifactId>dockerfile-maven-plugin</artifactId>
+                    <version>1.4.13</version>
+                    <configuration>
+                        <repository>harbor.roncoo.com/library/${project.artifactId}</repository>
+                        <tag>${project.version}</tag>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <!-- 环境变量 -->
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <env>dev</env>
+            </properties>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <env>prod</env>
+            </properties>
+        </profile>
+        <profile>
+            <id>test</id>
+            <properties>
+                <env>test</env>
+            </properties>
+        </profile>
+    </profiles>
+
+    <modules>
+        <!-- 网关接口 -->
+        <module>roncoo-education-app-gateway</module>
+        <!-- 定时任务 -->
+        <module>roncoo-education-app-job</module>
+        <!-- 监控中心 -->
+        <module>roncoo-education-app-sba</module>
+        <!-- 基础工程 -->
+        <module>roncoo-education-common</module>
+        <!-- 系统管理 -->
+        <module>roncoo-education-system</module>
+        <!-- 用户管理 -->
+        <module>roncoo-education-user</module>
+        <!-- 课程管理 -->
+        <module>roncoo-education-course</module>
+    </modules>
+</project>
