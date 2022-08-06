@@ -26,6 +26,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
+import com.roncoo.education.user.service.pc.SendEmail;
 
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Pattern;
@@ -54,6 +55,9 @@ public class ApiUserInfoBiz extends BaseBiz {
 
     @Autowired
     private RedisTemplate<String, String> redisTemplate;
+
+    @Autowired
+    private SendEmail sendEmail;
 
     @Transactional
     public Result<UserLoginDTO> register(UserRegisterBO userRegisterBO) {
@@ -206,9 +210,9 @@ public class ApiUserInfoBiz extends BaseBiz {
         if (StringUtils.isEmpty(userSendCodeBO.getClientId())) {
             return Result.error("clientId不能为空");
         }
-        if (!Pattern.compile(Constants.REGEX_MOBILE).matcher(userSendCodeBO.getMobile()).matches()) {
-            return Result.error("手机号码格式不正确");
-        }
+        //if (!Pattern.compile(Constants.REGEX_MOBILE).matcher(userSendCodeBO.getMobile()).matches()) {
+        //    return Result.error("手机号码格式不正确");
+        //}
 
         Platform platform = platformDao.getByClientId(userSendCodeBO.getClientId());
         if (ObjectUtil.isNull(platform)) {
@@ -226,11 +230,13 @@ public class ApiUserInfoBiz extends BaseBiz {
         SendSmsLog sendSmsLog = new SendSmsLog();
         sendSmsLog.setMobile(userSendCodeBO.getMobile());
         sendSmsLog.setTemplate(sys.getSmsCode());
+
         // 随机生成验证码
         sendSmsLog.setSmsCode(RandomUtil.randomNumbers(6));
-        try {
+        //try {
             // 发送验证码
-            boolean result = AliyunUtil.sendMsg(userSendCodeBO.getMobile(), sendSmsLog.getSmsCode(), BeanUtil.copyProperties(sys, Aliyun.class));
+            //boolean result = AliyunUtil.sendMsg(userSendCodeBO.getMobile(), sendSmsLog.getSmsCode(), BeanUtil.copyProperties(sys, Aliyun.class));
+            boolean result = sendEmail.sendEmail(userSendCodeBO.getMobile(), sendSmsLog.getSmsCode());
             // 发送成功，验证码存入缓存：5分钟有效
             if (result) {
                 redisTemplate.opsForValue().set(userSendCodeBO.getClientId() + userSendCodeBO.getMobile(), sendSmsLog.getSmsCode(), 5, TimeUnit.MINUTES);
@@ -242,12 +248,12 @@ public class ApiUserInfoBiz extends BaseBiz {
             sendSmsLog.setIsSuccess(IsSuccessEnum.FAIL.getCode());
             sendSmsLogDao.save(sendSmsLog);
             throw new BaseException("发送失败");
-        } catch (ClientException e) {
-            sendSmsLog.setIsSuccess(IsSuccessEnum.FAIL.getCode());
-            sendSmsLogDao.save(sendSmsLog);
-            logger.error("发送失败，原因={}", e.getErrMsg());
-            return Result.error("发送失败");
-        }
+        //} //catch (ClientException e) {
+            //sendSmsLog.setIsSuccess(IsSuccessEnum.FAIL.getCode());
+            //sendSmsLogDao.save(sendSmsLog);
+            //logger.error("发送失败，原因={}", e.getErrMsg());
+            //return Result.error("发送失败");
+        //}
     }
 
     private User register(String mobile, String password, String clientId) {

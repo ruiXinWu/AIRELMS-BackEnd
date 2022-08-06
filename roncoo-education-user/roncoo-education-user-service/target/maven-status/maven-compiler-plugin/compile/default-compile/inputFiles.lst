@@ -128,6 +128,7 @@
 /Users/wuruixin/Downloads/roncoo-education/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/auth/bo/AuthLecturerExtViewBO.java
 /Users/wuruixin/Downloads/roncoo-education/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/LecturerExtMapper.java
 /Users/wuruixin/Downloads/roncoo-education/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/biz/PcApiLecturerAuditBiz.java
+/Users/wuruixin/Downloads/roncoo-education/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/SendEmail.java
 /Users/wuruixin/Downloads/roncoo-education/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/feign/FeignUserLogModifiedController.java
 /Users/wuruixin/Downloads/roncoo-education/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/feign/FeignRegionController.java
 /Users/wuruixin/Downloads/roncoo-education/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/biz/PcApiLecturerExtBiz.java

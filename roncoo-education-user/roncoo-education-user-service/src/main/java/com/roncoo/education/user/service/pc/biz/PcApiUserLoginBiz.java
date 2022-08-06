@@ -72,7 +72,8 @@ public class PcApiUserLoginBiz {
             return Result.error("账号或者密码不正确");
         }
         // 获取用户菜单权限
-        //List<String> menuList = feignSysMenu.listByUserAndMenu(user.getUserNo());
+        System.out.println(user.getUserNo());
+        List<String> menuList = feignSysMenu.listByUserAndMenu(user.getUserNo());
         String[] test=new String[]{
                 "",
         "/course/pc/order/info/edit",
@@ -147,7 +148,7 @@ public class PcApiUserLoginBiz {
                 "",
                 "/user/pc/platform/list"
 };
-        List<String> menuList= Arrays.asList(test);
+        //List<String> menuList= Arrays.asList(test);
         if (CollectionUtil.isEmpty(menuList)) {
             return Result.error("没权限！");
         }
