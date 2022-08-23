@@ -5,6 +5,7 @@ package com.roncoo.education.course.service.api.biz;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.ObjectUtil;
+import com.roncoo.education.common.core.Vimeo.VimeoUpload;
 import com.roncoo.education.common.core.aliyun.Aliyun;
 import com.roncoo.education.common.core.aliyun.AliyunUtil;
 import com.roncoo.education.common.core.base.BaseBiz;
@@ -34,10 +35,12 @@ import com.roncoo.spring.boot.autoconfigure.fastdfs.FastdfsClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
+import com.roncoo.education.common.core.Vimeo.VimeoUpload.*;
 
 import java.io.File;
 import java.util.Arrays;
 import java.util.List;
+
 
 /**
  * 上传接口
@@ -61,6 +64,8 @@ public class ApiUploadBiz extends BaseBiz {
     @Autowired(required = false)
     private FastdfsClientService fastdfsClientService;
 
+    @Autowired
+    private VimeoUpload vimeoUpload;
     /**
      * 上传视频接口
      *
@@ -91,17 +96,21 @@ public class ApiUploadBiz extends BaseBiz {
         Long videoNo = IdWorker.getId(); // 当作存储到本地的文件名，方便定时任务的处理
 
         // 1、上传到本地
+        //File targetFile = new File(
+         //       SystemUtil.PERIOD_VIDEO_PATH + videoNo.toString() + "." + StrUtil.getSuffix(fileName));
         File targetFile = new File(
-                SystemUtil.PERIOD_VIDEO_PATH + videoNo.toString() + "." + StrUtil.getSuffix(fileName));
+                "/Users/wuruixin/Downloads/roncoo-education" + videoNo.toString() + "." + StrUtil.getSuffix(fileName));
+
         targetFile.setLastModified(System.currentTimeMillis());// 设置最后修改时间
         // 判断文件目录是否存在，不存在就创建文件目录
         if (!targetFile.getParentFile().exists()) {
-            targetFile.getParentFile().mkdirs();
+           targetFile.getParentFile().mkdirs();
         }
         try {
             videoFile.transferTo(targetFile);
         } catch (Exception e) {
             logger.error("上传到本地失败", e);
+            e.printStackTrace(System.out);
             return Result.error("上传文件出错，请重新上传");
         }
 
@@ -118,6 +127,7 @@ public class ApiUploadBiz extends BaseBiz {
             callbackExecutor.execute(new Runnable() {
                 @Override
                 public void run() {
+                    System.out.println(result);
                     // 2、异步上传到保利威视
                     UploadFile uploadFile = new UploadFile();
                     uploadFile.setTitle(fileName);
@@ -128,11 +138,14 @@ public class ApiUploadBiz extends BaseBiz {
                     // 获取系统配置信息
                     SysVO sys = bossSys.getSys();
 
-                    UploadFileResult result = PolyvUtil.uploadFile(targetFile, uploadFile, sys.getPolyvWritetoken());
+                    //UploadFileResult result = PolyvUtil.uploadFile(targetFile, uploadFile, sys.getPolyvWritetoken());
+                    UploadFileResult result = vimeoUpload.uploadVimeo(fileName,targetFile);
                     if (result == null) {
                         // 上传异常，不再进行处理，定时任务会继续进行处理
                         return;
                     }
+
+
 
                     courseVideo.setVideoLength(result.getDuration());
                     courseVideo.setVideoVid(result.getVid());

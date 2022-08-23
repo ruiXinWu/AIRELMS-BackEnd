@@ -23,6 +23,7 @@ com/roncoo/education/common/core/tools/JSUtil.class
 com/roncoo/education/common/core/base/BaseCached$1.class
 com/roncoo/education/common/core/enums/FloorEnum.class
 com/roncoo/education/common/core/enums/HiddenTypeEnum.class
+com/roncoo/education/common/core/Vimeo/VimeoUpload.class
 com/roncoo/education/common/core/enums/IsVideoEnum.class
 com/roncoo/education/common/core/enums/ProfitStatusEnum.class
 com/roncoo/education/common/core/base/Base.class
