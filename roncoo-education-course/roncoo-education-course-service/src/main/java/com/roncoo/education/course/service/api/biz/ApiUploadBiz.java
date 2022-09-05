@@ -5,6 +5,7 @@ package com.roncoo.education.course.service.api.biz;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.ObjectUtil;
+import com.roncoo.education.common.core.aliyun.AWSUtil;
 import com.roncoo.education.common.core.aliyun.Aliyun;
 import com.roncoo.education.common.core.aliyun.AliyunUtil;
 import com.roncoo.education.common.core.base.BaseBiz;
@@ -34,6 +35,7 @@ import com.roncoo.spring.boot.autoconfigure.fastdfs.FastdfsClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
+import software.amazon.awssdk.services.s3.S3Client;
 
 import java.io.File;
 import java.util.Arrays;
@@ -203,11 +205,14 @@ public class ApiUploadBiz extends BaseBiz {
             }
             Long fileNo = IdWorker.getId();
 
-            if (sys.getFileType().equals(FileTypeEnum.ALIYUN.getCode())) {
+            //if (sys.getFileType().equals(FileTypeEnum.ALIYUN.getCode())) {
+            if (false){
                 // 存储方式：阿里云
                 return Result.success(AliyunUtil.uploadPic(PlatformEnum.COURSE, picFile,
                         BeanUtil.copyProperties(bossSys.getSys(), Aliyun.class)));
-            } else if (sys.getFileType().equals(FileTypeEnum.FDSF.getCode())) {
+            }
+            //else if (sys.getFileType().equals(FileTypeEnum.FDSF.getCode())) {
+            else if (false){
                 // 存储方式：FastDFS
                 String fileName = picFile.getOriginalFilename();
                 String type = fileName.substring(fileName.lastIndexOf(".") + 1);
@@ -218,9 +223,13 @@ public class ApiUploadBiz extends BaseBiz {
                     logger.error("上传到FDSF失败", e);
                     return Result.error("上传文件出错，请重新上传");
                 }
-            } else if (sys.getFileType().equals(FileTypeEnum.LOCAL.getCode())) {
+            }
+            //else if (sys.getFileType().equals(FileTypeEnum.LOCAL.getCode())) {
+            else if (true){
                 // 存储方式：传到本地
-                File pic = new File(SystemUtil.PIC_STORAGE_PATH + fileNo.toString() + "."
+//                File pic = new File(SystemUtil.PIC_STORAGE_PATH + fileNo.toString() + "."
+//                        + StrUtil.getSuffix(picFile.getOriginalFilename()));
+                File pic = new File("/Users/zehuanni/Downloads/" + fileNo.toString() + "."
                         + StrUtil.getSuffix(picFile.getOriginalFilename()));
                 try {
                     // 判断文件目录是否存在，不存在就创建文件目录
@@ -232,8 +241,12 @@ public class ApiUploadBiz extends BaseBiz {
                     fileStorage.setFileName(picFile.getOriginalFilename());
                     fileStorage.setFileNo(fileNo);
                     fileStorage.setFileSize(picFile.getSize());
+                    //System.out.println("#############: " + FileClassifyEnum.PICTURE.getCode());
                     fileStorage.setfileClassify(FileClassifyEnum.PICTURE.getCode());
-                    fileStorage.setFileUrl(pic.toString());
+                    S3Client s3 = AWSUtil.getS3Client();
+                    String url = AWSUtil.uploadPic("testUpload", pic, s3);
+                    //fileStorage.setFileUrl(pic.toString());
+                    fileStorage.setFileUrl(url);
                     fileStorageDao.save(fileStorage);
                     return Result.success(pic.toString());
                 } catch (Exception e) {
