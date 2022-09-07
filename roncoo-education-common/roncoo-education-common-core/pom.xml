@@ -12,6 +12,18 @@
     <artifactId>roncoo-education-common-core</artifactId>
     <name>roncoo-education-common-core</name>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>software.amazon.awssdk</groupId>
+                <artifactId>bom</artifactId>
+                <version>2.16.60</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
         <!-- aliyun oss -->
         <dependency>
@@ -26,19 +38,18 @@
             <artifactId>aliyun-java-sdk-core</artifactId>
             <version>4.5.10</version>
         </dependency>
+        <!-- vimeo -->
+        <dependency>
+            <groupId>com.clickntap</groupId>
+            <artifactId>vimeo</artifactId>
+            <version>2.0</version>
+        </dependency>
 
         <!-- hutool -->
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
             <version>5.3.8</version>
-        </dependency>
-
-        <!-- vimeo -->
-        <dependency>
-            <groupId>com.clickntap</groupId>
-            <artifactId>vimeo</artifactId>
-            <version>2.0</version>
         </dependency>
 
         <!-- jwt -->
@@ -94,6 +105,11 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpmime</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>s3</artifactId>
         </dependency>
 
         <!-- web -->

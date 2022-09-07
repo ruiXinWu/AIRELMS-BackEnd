@@ -6,6 +6,7 @@ package com.roncoo.education.course.service.api.biz;
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.ObjectUtil;
 import com.roncoo.education.common.core.Vimeo.VimeoUpload;
+import com.roncoo.education.common.core.aliyun.AWSUtil;
 import com.roncoo.education.common.core.aliyun.Aliyun;
 import com.roncoo.education.common.core.aliyun.AliyunUtil;
 import com.roncoo.education.common.core.base.BaseBiz;
@@ -36,6 +37,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 import com.roncoo.education.common.core.Vimeo.VimeoUpload.*;
+import software.amazon.awssdk.services.s3.S3Client;
 
 import java.io.File;
 import java.util.Arrays;
@@ -99,7 +101,7 @@ public class ApiUploadBiz extends BaseBiz {
         //File targetFile = new File(
          //       SystemUtil.PERIOD_VIDEO_PATH + videoNo.toString() + "." + StrUtil.getSuffix(fileName));
         File targetFile = new File(
-                "/Users/wuruixin/Downloads/roncoo-education" + videoNo.toString() + "." + StrUtil.getSuffix(fileName));
+                "C:\\Users\\HP\\Desktop\\new_AIRE\\new_backend" + videoNo.toString() + "." + StrUtil.getSuffix(fileName));
 
         targetFile.setLastModified(System.currentTimeMillis());// 设置最后修改时间
         // 判断文件目录是否存在，不存在就创建文件目录
@@ -119,6 +121,7 @@ public class ApiUploadBiz extends BaseBiz {
         courseVideo.setVideoNo(videoNo);
         courseVideo.setGmtCreate(null);
         courseVideo.setGmtModified(null);
+        courseVideo.setPeriodId(Long.valueOf(0));
         courseVideo.setVideoName(fileName);
         courseVideo.setVideoStatus(VideoStatusEnum.WAIT.getCode());
         int result = courseVideoDao.save(courseVideo);
@@ -159,7 +162,8 @@ public class ApiUploadBiz extends BaseBiz {
 
                     // 根据视频编号、课时ID查询课程视频信息
                     CourseVideo courseVideo = courseVideoDao.getByVideoNoAndPeriodId(videoNo, Long.valueOf(0));
-
+                    System.out.println("JIJIJJIJIJIJIJIJIJIJIJIJIJIJ");
+                    System.out.println(videoNo);
                     // 根据视频编号更新视频信息
                     List<CourseVideo> list = courseVideoDao.listByVideoNo(videoNo);
                     for (CourseVideo video : list) {
@@ -216,11 +220,14 @@ public class ApiUploadBiz extends BaseBiz {
             }
             Long fileNo = IdWorker.getId();
 
-            if (sys.getFileType().equals(FileTypeEnum.ALIYUN.getCode())) {
+            //if (sys.getFileType().equals(FileTypeEnum.ALIYUN.getCode())) {
+            if (false){
                 // 存储方式：阿里云
                 return Result.success(AliyunUtil.uploadPic(PlatformEnum.COURSE, picFile,
                         BeanUtil.copyProperties(bossSys.getSys(), Aliyun.class)));
-            } else if (sys.getFileType().equals(FileTypeEnum.FDSF.getCode())) {
+            }
+            //else if (sys.getFileType().equals(FileTypeEnum.FDSF.getCode())) {
+            else if (false){
                 // 存储方式：FastDFS
                 String fileName = picFile.getOriginalFilename();
                 String type = fileName.substring(fileName.lastIndexOf(".") + 1);
@@ -231,10 +238,15 @@ public class ApiUploadBiz extends BaseBiz {
                     logger.error("上传到FDSF失败", e);
                     return Result.error("上传文件出错，请重新上传");
                 }
-            } else if (sys.getFileType().equals(FileTypeEnum.LOCAL.getCode())) {
+            }
+            //else if (sys.getFileType().equals(FileTypeEnum.LOCAL.getCode())) {
+            else if (true){
                 // 存储方式：传到本地
-                File pic = new File(SystemUtil.PIC_STORAGE_PATH + fileNo.toString() + "."
+//                File pic = new File(SystemUtil.PIC_STORAGE_PATH + fileNo.toString() + "."
+//                        + StrUtil.getSuffix(picFile.getOriginalFilename()));
+                File pic = new File("C:\\Users\\HP\\Desktop\\new_AIRE\\new_backend" + fileNo.toString() + "."
                         + StrUtil.getSuffix(picFile.getOriginalFilename()));
+                //C:\\Users\\HP\\Desktop\\new_AIRE\\new_backend" + videoNo.toString() + "." + StrUtil.getSuffix(fileName));
                 try {
                     // 判断文件目录是否存在，不存在就创建文件目录
                     if (!pic.getParentFile().exists()) {
@@ -245,10 +257,14 @@ public class ApiUploadBiz extends BaseBiz {
                     fileStorage.setFileName(picFile.getOriginalFilename());
                     fileStorage.setFileNo(fileNo);
                     fileStorage.setFileSize(picFile.getSize());
+                    //System.out.println("#############: " + FileClassifyEnum.PICTURE.getCode());
                     fileStorage.setfileClassify(FileClassifyEnum.PICTURE.getCode());
-                    fileStorage.setFileUrl(pic.toString());
+                    S3Client s3 = AWSUtil.getS3Client();
+                    String url = AWSUtil.uploadPic("testUpload", pic, s3);
+                    //fileStorage.setFileUrl(pic.toString());
+                    fileStorage.setFileUrl(url);
                     fileStorageDao.save(fileStorage);
-                    return Result.success(pic.toString());
+                    return Result.success(url);
                 } catch (Exception e) {
                     logger.error("上传到本地失败", e);
                     return Result.error("上传文件出错，请重新上传");

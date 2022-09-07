@@ -103,18 +103,19 @@ public final class PolyvUtil {
         String result = post(SystemUtil.POLYV_GETTOKEN, map);
         logger.info("保利威视，获取token接口：result={}", result);
         Map<String, Object> resultMap = JSUtil.parseObject(result, HashMap.class);
-        int code = Integer.valueOf(resultMap.get("code").toString()).intValue();
-        if (code != 200) {
-            return null;
-        }
-        Map<String, Object> data = (Map<String, Object>) resultMap.get("data");
-        if (data == null || data.isEmpty()) {
-            return null;
-        }
+        //int code = Integer.valueOf(resultMap.get("code").toString()).intValue();
+        //if (code != 200) {
+        //    return null;
+        //}
+        //Map<String, Object> data = (Map<String, Object>) resultMap.get("data");
+        //if (data == null || data.isEmpty()) {
+        //    return null;
+        //}
         PolyvSignResult dto = new PolyvSignResult();
         dto.setSign(MD5Util.MD5(secretkey + bo.getVid() + ts));
         dto.setTs(ts);
-        dto.setToken(data.get("token").toString());
+        //dto.setToken(data.get("token").toString());
+        dto.setToken("false token");
         return dto;
     }
 
