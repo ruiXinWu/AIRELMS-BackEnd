@@ -85,7 +85,7 @@ public final class PolyvUtil {
     }
 
     @SuppressWarnings("unchecked")
-    public static PolyvSignResult getSignForH5(PolyvSign bo, String useid, String secretkey) {
+    public static PolyvSignResult getSignForH5(PolyvSign bo, String useid, String videoLink) {
         // 根据时间戳、vid、密钥生成sign值
         String ts = String.valueOf(System.currentTimeMillis());
         // 获取播放token
@@ -99,7 +99,7 @@ public final class PolyvUtil {
         map.put("viewerId", bo.getUserNo());
         logger.info("保利威视，map：map={}", map);
         String concated = "extraParams" + map.get("extraParams") + "ts" + map.get("ts") + "userId" + map.get("userId") + "videoId" + map.get("videoId") + "viewerId" + map.get("viewerId") + "viewerIp" + map.get("viewerIp") + "viewerName" + map.get("viewerName");
-        map.put("sign", MD5Util.MD5(secretkey + concated + secretkey).toUpperCase());
+        map.put("sign", videoLink);
         String result = post(SystemUtil.POLYV_GETTOKEN, map);
         logger.info("保利威视，获取token接口：result={}", result);
         Map<String, Object> resultMap = JSUtil.parseObject(result, HashMap.class);
@@ -112,7 +112,7 @@ public final class PolyvUtil {
         //    return null;
         //}
         PolyvSignResult dto = new PolyvSignResult();
-        dto.setSign(MD5Util.MD5(secretkey + bo.getVid() + ts));
+        dto.setSign(videoLink);
         dto.setTs(ts);
         //dto.setToken(data.get("token").toString());
         dto.setToken("false token");
