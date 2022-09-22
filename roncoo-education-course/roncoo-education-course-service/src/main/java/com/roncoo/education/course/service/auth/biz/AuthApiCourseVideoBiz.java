@@ -100,9 +100,11 @@ public class AuthApiCourseVideoBiz extends BaseBiz {
     public Result<AuthCourseVideoListDTO> listByChapterId(AuthCourseVideoBO authCourseVideoBO) {
         // 查找该章节下可用的视频信息集合
         List<CourseVideo> courseVideoList = dao.listByChapterIdAndPeriodIdAndStatusId(authCourseVideoBO.getChapterId(), Long.valueOf(0), StatusIdEnum.YES.getCode());
+        System.out.println(courseVideoList);
         AuthCourseVideoListDTO dto = new AuthCourseVideoListDTO();
         if (CollectionUtil.isNotEmpty(courseVideoList)) {
             List<AuthCourseVideoForListDTO> dtoList = ArrayListUtil.copy(courseVideoList, AuthCourseVideoForListDTO.class);
+            System.out.println(dtoList);
             dto.setList(dtoList);
         }
         return Result.success(dto);

@@ -39,6 +39,7 @@ com/roncoo/education/common/core/tools/Constants$DATE.class
 com/roncoo/education/common/core/enums/IsFreeEnum.class
 com/roncoo/education/common/core/enums/IsEnableStatisticsEnum.class
 com/roncoo/education/common/core/tools/SqlUtil.class
+com/roncoo/education/common/core/aliyun/AWSUtil.class
 com/roncoo/education/common/core/annotation/AdminLog.class
 com/roncoo/education/common/core/enums/OrderStatusEnum.class
 com/roncoo/education/common/core/tools/NOUtil.class

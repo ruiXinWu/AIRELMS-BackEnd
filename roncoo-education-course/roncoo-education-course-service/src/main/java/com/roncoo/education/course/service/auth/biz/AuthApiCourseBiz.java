@@ -31,6 +31,7 @@ import com.roncoo.education.user.feign.interfaces.vo.LecturerVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
+import com.roncoo.education.common.core.Vimeo.VimeoUpload;
 
 import java.util.List;
 
@@ -61,6 +62,9 @@ public class AuthApiCourseBiz extends BaseBiz {
 
     @Autowired
     private IFeignSys bossSys;
+
+    @Autowired
+    private VimeoUpload vimeoUpload;
 
     public Result<AuthCourseSignDTO> sign(AuthCourseSignBO authCourseSignBO) {
         if (ObjectUtil.isNull(authCourseSignBO.getUserNo())) {
@@ -195,7 +199,8 @@ public class AuthApiCourseBiz extends BaseBiz {
         polyvSign.setIp(authCourseSignBO.getIp());
         polyvSign.setUserNo(authCourseSignBO.getUserNo());
         polyvSign.setVid(authCourseSignBO.getVideoVid());
-        PolyvSignResult signResult = PolyvUtil.getSignForH5(polyvSign, sys.getPolyvUseid(), sys.getPolyvSecretkey());
+        //PolyvSignResult signResult = PolyvUtil.getSignForH5(polyvSign, sys.getPolyvUseid(), sys.getPolyvSecretkey());
+        PolyvSignResult signResult = PolyvUtil.getSignForH5(polyvSign, sys.getPolyvUseid(), vimeoUpload.getLink(authCourseSignBO.getVideoVid()));
         AuthCourseSignDTO dto = BeanUtil.copyProperties(signResult, AuthCourseSignDTO.class);
         PolyvCode polyvCode = new PolyvCode();
         polyvCode.setPeriodNo(authCourseSignBO.getPeriodId());

@@ -1,4 +1,4 @@
-/Users/wuruixin/Downloads/roncoo-education/roncoo-education-app-gateway/src/main/java/com/roncoo/education/ServerGatewayApplication.java
-/Users/wuruixin/Downloads/roncoo-education/roncoo-education-app-gateway/src/main/java/com/roncoo/education/app/gateway/IndexController.java
-/Users/wuruixin/Downloads/roncoo-education/roncoo-education-app-gateway/src/main/java/com/roncoo/education/app/gateway/filter/EduGlobalFilter.java
-/Users/wuruixin/Downloads/roncoo-education/roncoo-education-app-gateway/src/main/java/com/roncoo/education/app/gateway/GlobalErrorAttributes.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-app-gateway/src/main/java/com/roncoo/education/app/gateway/IndexController.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-app-gateway/src/main/java/com/roncoo/education/ServerGatewayApplication.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-app-gateway/src/main/java/com/roncoo/education/app/gateway/filter/EduGlobalFilter.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-app-gateway/src/main/java/com/roncoo/education/app/gateway/GlobalErrorAttributes.java
