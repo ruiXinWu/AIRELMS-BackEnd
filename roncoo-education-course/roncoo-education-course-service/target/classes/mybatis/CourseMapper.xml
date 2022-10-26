@@ -22,6 +22,9 @@
         <result column="count_buy" property="countBuy" jdbcType="INTEGER"/>
         <result column="count_study" property="countStudy" jdbcType="INTEGER"/>
         <result column="period_total" property="periodTotal" jdbcType="INTEGER"/>
+        <result column="quiz" property="quiz" jdbcType="VARCHAR"/>
+
+
     </resultMap>
     <sql id="Example_Where_Clause">
         <where>
@@ -86,7 +89,7 @@
     <sql id="Base_Column_List">
     id, gmt_create, gmt_modified, status_id, sort, lecturer_user_no, category_id1, category_id2,
     category_id3, course_name, course_logo, introduce_id, is_free, course_original, course_discount,
-    is_putaway, course_sort, count_buy, count_study, period_total
+    is_putaway, course_sort, count_buy, count_study, period_total, quiz
   </sql>
     <select id="selectByExample" resultMap="BaseResultMap"
             parameterType="com.roncoo.education.course.dao.impl.mapper.entity.CourseExample">
@@ -129,14 +132,14 @@
       course_name, course_logo, introduce_id,
       is_free, course_original, course_discount,
       is_putaway, course_sort, count_buy,
-      count_study, period_total)
+      count_study, period_total,quiz)
     values (#{id,jdbcType=BIGINT}, #{gmtCreate,jdbcType=TIMESTAMP}, #{gmtModified,jdbcType=TIMESTAMP},
       #{statusId,jdbcType=TINYINT}, #{sort,jdbcType=INTEGER}, #{lecturerUserNo,jdbcType=BIGINT},
       #{categoryId1,jdbcType=BIGINT}, #{categoryId2,jdbcType=BIGINT}, #{categoryId3,jdbcType=BIGINT},
       #{courseName,jdbcType=VARCHAR}, #{courseLogo,jdbcType=VARCHAR}, #{introduceId,jdbcType=BIGINT},
       #{isFree,jdbcType=TINYINT}, #{courseOriginal,jdbcType=DECIMAL}, #{courseDiscount,jdbcType=DECIMAL},
       #{isPutaway,jdbcType=TINYINT}, #{courseSort,jdbcType=INTEGER}, #{countBuy,jdbcType=INTEGER},
-      #{countStudy,jdbcType=INTEGER}, #{periodTotal,jdbcType=INTEGER})
+      #{countStudy,jdbcType=INTEGER}, #{periodTotal,jdbcType=INTEGER}, #{quiz,jdbcType=VARCHAR})
   </insert>
     <insert id="insertSelective" parameterType="com.roncoo.education.course.dao.impl.mapper.entity.Course">
         insert into course
@@ -201,6 +204,9 @@
             <if test="periodTotal != null">
                 period_total,
             </if>
+            <if test="quiz != null">
+                quiz,
+            </if>
         </trim>
         <trim prefix="values (" suffix=")" suffixOverrides=",">
             <if test="id != null">
@@ -262,6 +268,9 @@
             </if>
             <if test="periodTotal != null">
                 #{periodTotal,jdbcType=INTEGER},
+            </if>
+            <if test="quiz != null">
+                #{quiz,jdbcType=VARCHAR},
             </if>
         </trim>
     </insert>
@@ -335,6 +344,9 @@
             <if test="record.periodTotal != null">
                 period_total = #{record.periodTotal,jdbcType=INTEGER},
             </if>
+            <if test="quiz != null">
+                quiz = #{record.quiz,jdbcType=VARCHAR},
+            </if>
         </set>
         <if test="_parameter != null">
             <include refid="Update_By_Example_Where_Clause"/>
@@ -361,7 +373,8 @@
         course_sort = #{record.courseSort,jdbcType=INTEGER},
         count_buy = #{record.countBuy,jdbcType=INTEGER},
         count_study = #{record.countStudy,jdbcType=INTEGER},
-        period_total = #{record.periodTotal,jdbcType=INTEGER}
+        period_total = #{record.periodTotal,jdbcType=INTEGER},
+        quiz = #{record.quiz,jdbcType=VARCHAR}
         <if test="_parameter != null">
             <include refid="Update_By_Example_Where_Clause"/>
         </if>
@@ -426,6 +439,9 @@
             <if test="periodTotal != null">
                 period_total = #{periodTotal,jdbcType=INTEGER},
             </if>
+            <if test="quiz != null">
+                quiz = #{quiz,jdbcType=VARCHAR},
+            </if>
         </set>
         where id = #{id,jdbcType=BIGINT}
     </update>
@@ -449,7 +465,8 @@
       course_sort = #{courseSort,jdbcType=INTEGER},
       count_buy = #{countBuy,jdbcType=INTEGER},
       count_study = #{countStudy,jdbcType=INTEGER},
-      period_total = #{periodTotal,jdbcType=INTEGER}
+      period_total = #{periodTotal,jdbcType=INTEGER},
+      quiz = #{quiz,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
 </mapper>

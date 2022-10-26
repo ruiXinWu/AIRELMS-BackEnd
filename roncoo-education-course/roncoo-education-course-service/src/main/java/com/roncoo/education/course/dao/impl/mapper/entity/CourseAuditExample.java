@@ -1235,6 +1235,76 @@ public class CourseAuditExample {
             addCriterion("is_putaway not between", value1, value2, "isPutaway");
             return (Criteria) this;
         }
+
+        public Criteria andQuizIsNull() {
+            addCriterion("quiz is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andQuizIsNotNull() {
+            addCriterion("quiz is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andQuizEqualTo(String value) {
+            addCriterion("quiz =", value, "quiz");
+            return (Criteria) this;
+        }
+
+        public Criteria andQuizNotEqualTo(String value) {
+            addCriterion("quiz <>", value, "quiz");
+            return (Criteria) this;
+        }
+
+        public Criteria andQuizGreaterThan(String value) {
+            addCriterion("quiz >", value, "quiz");
+            return (Criteria) this;
+        }
+
+        public Criteria andQuizGreaterThanOrEqualTo(String value) {
+            addCriterion("quiz >=", value, "quiz");
+            return (Criteria) this;
+        }
+
+        public Criteria andQuizLessThan(String value) {
+            addCriterion("quiz <", value, "quiz");
+            return (Criteria) this;
+        }
+
+        public Criteria andQuizLessThanOrEqualTo(String value) {
+            addCriterion("quiz <=", value, "quiz");
+            return (Criteria) this;
+        }
+
+        public Criteria andQuizLike(String value) {
+            addCriterion("quiz like", value, "quiz");
+            return (Criteria) this;
+        }
+
+        public Criteria andQuizNotLike(String value) {
+            addCriterion("quiz not like", value, "quiz");
+            return (Criteria) this;
+        }
+
+        public Criteria andQuizIn(List<String> values) {
+            addCriterion("quiz in", values, "quiz");
+            return (Criteria) this;
+        }
+
+        public Criteria andQuizNotIn(List<String> values) {
+            addCriterion("quiz not in", values, "quiz");
+            return (Criteria) this;
+        }
+
+        public Criteria andQuizBetween(String value1, String value2) {
+            addCriterion("quiz between", value1, value2, "quiz");
+            return (Criteria) this;
+        }
+
+        public Criteria andQuizNotBetween(String value1, String value2) {
+            addCriterion("quiz not between", value1, value2, "quiz");
+            return (Criteria) this;
+        }
     }
 
     public static class Criteria extends GeneratedCriteria {

@@ -41,6 +41,10 @@ public class CourseAudit implements Serializable {
 
     private Integer isPutaway;
 
+    private String quiz;
+
+    private String project;
+
     private static final long serialVersionUID = 1L;
 
     public Long getId() {
@@ -187,6 +191,22 @@ public class CourseAudit implements Serializable {
         this.isPutaway = isPutaway;
     }
 
+    public String getQuiz() {
+        return quiz;
+    }
+
+    public void setQuiz(String quiz) {
+        this.quiz = quiz == null ? null : quiz.trim();
+    }
+
+    public String getProject() {
+        return project;
+    }
+
+    public void setProject(String project) {
+        this.project = project == null ? null : project.trim();
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -211,6 +231,8 @@ public class CourseAudit implements Serializable {
         sb.append(", courseOriginal=").append(courseOriginal);
         sb.append(", courseDiscount=").append(courseDiscount);
         sb.append(", isPutaway=").append(isPutaway);
+        sb.append(", quiz=").append(quiz);
+        sb.append(", projectLink=").append(project);
         sb.append(", serialVersionUID=").append(serialVersionUID);
         sb.append("]");
         return sb.toString();

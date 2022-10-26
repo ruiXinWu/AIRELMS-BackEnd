@@ -23,7 +23,6 @@ import org.springframework.data.elasticsearch.core.query.IndexQuery;
 import org.springframework.data.elasticsearch.core.query.IndexQueryBuilder;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.util.ObjectUtils;
 import org.springframework.util.StringUtils;
 
 import java.math.BigDecimal;
@@ -205,6 +204,11 @@ public class PcApiCourseAuditBiz extends BaseBiz {
             return Result.error("ID不能为空");
         }
         CourseAudit record = dao.getById(req.getId());
+        System.out.println(0);
+        System.out.println(0);
+        System.out.println(record);
+
+
         if (ObjectUtil.isNull(record)) {
             return Result.error("找不到课程信息");
         }
@@ -268,6 +272,13 @@ public class PcApiCourseAuditBiz extends BaseBiz {
         List<CourseChapterPeriodAudit> periodAuditList = courseChapterPeriodAuditDao.listByCourseId(courseAudit.getId());
 
         Course course = courseDao.getById(courseAudit.getId());
+        System.out.println(2);
+        System.out.println(2);
+        System.out.println(courseAudit);
+        System.out.println(courseAudit.getId());
+
+        System.out.println(2);
+        System.out.println(2);
         // 1、对课程操作
         // 如果课程信息表里面有数据就进行更新
         if (ObjectUtil.isNotNull(course)) {
@@ -285,6 +296,11 @@ public class PcApiCourseAuditBiz extends BaseBiz {
         } else {
             // 如果课程信息表里面没数据就进行插入
             Course info = BeanUtil.copyProperties(courseAudit, Course.class);
+            System.out.println(info.getQuiz());
+            System.out.println(courseAudit.getQuiz());
+            System.out.println(1);
+            System.out.println(1);
+            System.out.println(1);
             info.setGmtCreate(null);
             info.setGmtModified(null);
             // 设置总课时数

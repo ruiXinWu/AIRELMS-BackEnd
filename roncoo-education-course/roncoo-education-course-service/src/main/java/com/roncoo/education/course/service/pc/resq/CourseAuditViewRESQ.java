@@ -127,5 +127,8 @@ public class CourseAuditViewRESQ implements Serializable {
      */
     @ApiModelProperty(value = "章节集合")
     private List<CourseChapterAuditViewRESQ> courseChapterAuditList = new ArrayList<>();
+
+    @ApiModelProperty(value = "quiz")
+    private String quiz;
     ;
 }

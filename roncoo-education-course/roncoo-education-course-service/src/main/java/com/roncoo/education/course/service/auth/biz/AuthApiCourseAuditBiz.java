@@ -143,6 +143,9 @@ public class AuthApiCourseAuditBiz extends BaseBiz {
         record.setIntroduceId(courseIntroduceAudit.getId());
         record.setCourseDiscount(authCourseAuditSaveBO.getCourseOriginal());
         record.setLecturerUserNo(authCourseAuditSaveBO.getUserNo());
+        record.setQuiz(authCourseAuditSaveBO.getCourseQuiz());
+        record.setProject(authCourseAuditSaveBO.getCourseProject());
+
         // 查询更新后的课程审核信息
         if (courseAuditDao.save(record) > 0) {
             return Result.success(BeanUtil.copyProperties(record, AuthCourseAuditSaveDTO.class));

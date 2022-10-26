@@ -45,6 +45,8 @@ public class Course implements Serializable {
 
     private Integer periodTotal;
 
+    private String quiz;
+
     private static final long serialVersionUID = 1L;
 
     public Long getId() {
@@ -207,6 +209,14 @@ public class Course implements Serializable {
         this.periodTotal = periodTotal;
     }
 
+    public String getQuiz() {
+        return quiz;
+    }
+
+    public void setQuiz(String quiz) {
+        this.quiz = quiz == null ? null : quiz.trim();
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -233,6 +243,7 @@ public class Course implements Serializable {
         sb.append(", countBuy=").append(countBuy);
         sb.append(", countStudy=").append(countStudy);
         sb.append(", periodTotal=").append(periodTotal);
+        sb.append(", quiz=").append(quiz);
         sb.append(", serialVersionUID=").append(serialVersionUID);
         sb.append("]");
         return sb.toString();

@@ -100,4 +100,7 @@ public class AuthCourseViewDTO implements Serializable {
      */
     @ApiModelProperty(value = "课程学习进度")
     private AuthCourseUserStudyLogDTO authCourseUserStudyLog;
+
+    @ApiModelProperty(value = "quiz")
+    private String quiz;
 }
