@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="roncoo-education-course-feign" />
+        <module name="roncoo-education-common-service" />
+        <module name="roncoo-education-user-feign" />
+        <module name="roncoo-education-app-sba" />
+        <module name="roncoo-education-common-core" />
+        <module name="roncoo-education-app-gateway" />
+        <module name="roncoo-education-course-service" />
+        <module name="roncoo-education-system-feign" />
+        <module name="roncoo-education-user-service" />
+        <module name="roncoo-education-app-job" />
+        <module name="roncoo-education-system-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
