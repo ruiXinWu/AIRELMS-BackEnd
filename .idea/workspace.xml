@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbcb42f8-e8b1-4d5b-9098-b9a0e55473f7" name="Changes" comment="" />
+    <list default="true" id="cbcb42f8-e8b1-4d5b-9098-b9a0e55473f7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-app-gateway/target/app-gateway.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-gateway/target/app-gateway.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-app-gateway/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-gateway/target/classes/META-INF/build-info.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-app-gateway/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-gateway/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/app-job.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-job/target/app-job.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-job/target/classes/META-INF/build-info.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-job/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-app-sba/target/app-sba.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-sba/target/app-sba.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-app-sba/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-sba/target/classes/META-INF/build-info.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-app-sba/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-sba/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/Vimeo/VimeoUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/Vimeo/VimeoUpload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/target/classes/com/roncoo/education/common/core/Vimeo/VimeoUpload.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/target/classes/com/roncoo/education/common/core/Vimeo/VimeoUpload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-feign/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-feign/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/auth/biz/AuthApiCourseAuditBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/auth/biz/AuthApiCourseAuditBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/auth/bo/AuthCourseAuditUpdateBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/auth/bo/AuthCourseAuditUpdateBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/META-INF/build-info.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/auth/biz/AuthApiCourseAuditBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/auth/biz/AuthApiCourseAuditBiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/course-service.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/course-service.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-feign/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-feign/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-feign/target/roncoo-education-system-feign-10.0.0-RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-feign/target/roncoo-education-system-feign-10.0.0-RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/META-INF/build-info.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/system-service.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/system-service.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-feign/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-feign/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-feign/target/roncoo-education-user-feign-10.0.0-RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-feign/target/roncoo-education-user-feign-10.0.0-RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/META-INF/build-info.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/user-service.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/user-service.jar.original" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +46,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,10 +72,103 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.SystemServiceApplication">
+    <configuration name="CourseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="roncoo-education-course-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roncoo.education.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.roncoo.education.CourseServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="roncoo-education-app-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.roncoo.education.ServerGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerJobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="roncoo-education-app-job" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roncoo.education.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.roncoo.education.ServerJobApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerSbaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="roncoo-education-app-sba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roncoo.education.app.sba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.roncoo.education.app.sba.ServerSbaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="roncoo-education-system-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roncoo.education.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.roncoo.education.SystemServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="roncoo-education-user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roncoo.education.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.roncoo.education.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SystemServiceApplication" />
+        <item itemvalue="Spring Boot.ServerSbaApplication" />
+        <item itemvalue="Spring Boot.CourseServiceApplication" />
+        <item itemvalue="Spring Boot.ServerJobApplication" />
+        <item itemvalue="Spring Boot.UserServiceApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,10 +179,26 @@
       <option name="presentableId" value="Default" />
       <updated>1666744120705</updated>
       <workItem from="1666744131985" duration="652000" />
+      <workItem from="1666900951029" duration="652000" />
+      <workItem from="1666999283988" duration="615000" />
+      <workItem from="1666999942130" duration="360000" />
+      <workItem from="1667001505771" duration="773000" />
+      <workItem from="1667002891063" duration="181000" />
+      <workItem from="1667334799366" duration="6216000" />
+      <workItem from="1667363098600" duration="1761000" />
+      <workItem from="1667376457259" duration="620000" />
+      <workItem from="1667379535533" duration="3642000" />
+      <workItem from="1667419711927" duration="596000" />
+      <workItem from="1667848949972" duration="630000" />
+      <workItem from="1669156273276" duration="4595000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

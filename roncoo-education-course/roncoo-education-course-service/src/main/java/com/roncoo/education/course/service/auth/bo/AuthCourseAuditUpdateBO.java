@@ -68,4 +68,10 @@ public class AuthCourseAuditUpdateBO implements Serializable {
      */
     @ApiModelProperty(value = "用户编号", required = true)
     private Long userNo;
+
+    @ApiModelProperty(value = "Share Quiz link here", required = false)
+    private String courseQuiz;
+
+    @ApiModelProperty(value = "Share project link", required = false)
+    private String courseProject;
 }

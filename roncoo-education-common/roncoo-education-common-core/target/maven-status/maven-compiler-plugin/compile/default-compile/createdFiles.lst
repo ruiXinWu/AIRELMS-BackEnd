@@ -54,6 +54,7 @@ com/roncoo/education/common/core/config/SystemUtil.class
 com/roncoo/education/common/core/polyv/PolyvSignResult.class
 com/roncoo/education/common/core/enums/IsPutawayEnum.class
 com/roncoo/education/common/core/tools/PDFUtil.class
+com/roncoo/education/common/core/Vimeo/PathTest.class
 com/roncoo/education/common/core/pay/PayUtil.class
 com/roncoo/education/common/core/enums/ExtractStatusEnum.class
 com/roncoo/education/common/core/enums/TradeStatusEnum.class

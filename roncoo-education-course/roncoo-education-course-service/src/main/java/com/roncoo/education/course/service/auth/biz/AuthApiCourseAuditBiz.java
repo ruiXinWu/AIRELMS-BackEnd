@@ -208,6 +208,8 @@ public class AuthApiCourseAuditBiz extends BaseBiz {
         }
         record.setAuditStatus(AuditStatusEnum.WAIT.getCode());
         record.setCourseDiscount(authCourseAuditUpdateBO.getCourseOriginal());
+        record.setQuiz(authCourseAuditUpdateBO.getCourseQuiz());
+        record.setProject(authCourseAuditUpdateBO.getCourseProject());
         record.setAuditOpinion("");
 
         if (courseAuditDao.updateById(record) > 0) {

@@ -16,7 +16,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class VimeoUpload {
 
     public UploadFileResult uploadVimeo(String filename, File file) {
-        Vimeo vimeo = new Vimeo("b1e3838eb1ad557758ac62c8332ecce5");
+        Vimeo vimeo = new Vimeo("s");
 
 
         try {
@@ -51,7 +51,7 @@ public class VimeoUpload {
 
     public String getLink(String id) {
         try {
-            Vimeo vimeo = new Vimeo("b1e3838eb1ad557758ac62c8332ecce5");
+            Vimeo vimeo = new Vimeo("4e1e583fbb855a79fc2ec30ccf55805b");
             String endPoint = "https://api.vimeo.com/videos/" + id;
             JSONObject videoInfo = vimeo.getVideoInfo(endPoint).getJson();
             JSONArray videoArray = videoInfo.getJSONObject("play").getJSONArray("progressive");
