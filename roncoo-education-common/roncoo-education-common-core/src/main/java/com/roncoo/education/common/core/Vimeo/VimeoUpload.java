@@ -16,7 +16,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class VimeoUpload {
 
     public UploadFileResult uploadVimeo(String filename, File file) {
-        Vimeo vimeo = new Vimeo("s");
+        Vimeo vimeo = new Vimeo("4e1e583fbb855a79fc2ec30ccf55805b");
 
 
         try {

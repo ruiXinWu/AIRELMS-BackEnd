@@ -50,4 +50,6 @@ public interface CourseDao {
      * @return
      */
     List<Course> listBycategoryId2AndStatusId(Long categoryId2, Integer statusId);
+
+    Page<Course> listByProgram(int pageCurrent, int pageSize, CourseExample example);
 }

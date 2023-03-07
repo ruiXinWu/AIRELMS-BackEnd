@@ -312,7 +312,7 @@ public class ApiUserInfoBiz extends BaseBiz {
             return Result.error("验证码匹配不正确");
         }
         // 手机号去空处理
-        String mobile = userUpdateBO.getMobile().replaceAll(" +", "");
+        String email = userUpdateBO.getMobile();
 
         if (StringUtils.isEmpty(userUpdateBO.getConfirmPassword())) {
             return Result.error("新登录密码为空,请重试");
@@ -321,7 +321,7 @@ public class ApiUserInfoBiz extends BaseBiz {
             return Result.error("密码输入不一致，请重试");
         }
 
-        User user = userDao.getByMobile(mobile);
+        User user = userDao.getByMobile(email);
         if (ObjectUtil.isNull(user)) {
             return Result.error("没找到用户信息,请重试");
         }

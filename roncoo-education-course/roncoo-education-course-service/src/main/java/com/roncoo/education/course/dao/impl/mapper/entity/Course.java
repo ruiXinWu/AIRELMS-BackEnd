@@ -47,6 +47,8 @@ public class Course implements Serializable {
 
     private String quiz;
 
+    private Long programId;
+
     private static final long serialVersionUID = 1L;
 
     public Long getId() {
@@ -217,35 +219,40 @@ public class Course implements Serializable {
         this.quiz = quiz == null ? null : quiz.trim();
     }
 
+    public Long getProgramId() {
+        return programId;
+    }
+
+    public void setProgramId(Long programId) {
+        this.programId = programId;
+    }
+
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", id=").append(id);
-        sb.append(", gmtCreate=").append(gmtCreate);
-        sb.append(", gmtModified=").append(gmtModified);
-        sb.append(", statusId=").append(statusId);
-        sb.append(", sort=").append(sort);
-        sb.append(", lecturerUserNo=").append(lecturerUserNo);
-        sb.append(", categoryId1=").append(categoryId1);
-        sb.append(", categoryId2=").append(categoryId2);
-        sb.append(", categoryId3=").append(categoryId3);
-        sb.append(", courseName=").append(courseName);
-        sb.append(", courseLogo=").append(courseLogo);
-        sb.append(", introduceId=").append(introduceId);
-        sb.append(", isFree=").append(isFree);
-        sb.append(", courseOriginal=").append(courseOriginal);
-        sb.append(", courseDiscount=").append(courseDiscount);
-        sb.append(", isPutaway=").append(isPutaway);
-        sb.append(", courseSort=").append(courseSort);
-        sb.append(", countBuy=").append(countBuy);
-        sb.append(", countStudy=").append(countStudy);
-        sb.append(", periodTotal=").append(periodTotal);
-        sb.append(", quiz=").append(quiz);
-        sb.append(", serialVersionUID=").append(serialVersionUID);
-        sb.append("]");
-        return sb.toString();
+        return "Course{" +
+                "id=" + id +
+                ", gmtCreate=" + gmtCreate +
+                ", gmtModified=" + gmtModified +
+                ", statusId=" + statusId +
+                ", sort=" + sort +
+                ", lecturerUserNo=" + lecturerUserNo +
+                ", categoryId1=" + categoryId1 +
+                ", categoryId2=" + categoryId2 +
+                ", categoryId3=" + categoryId3 +
+                ", courseName='" + courseName + '\'' +
+                ", courseLogo='" + courseLogo + '\'' +
+                ", introduceId=" + introduceId +
+                ", isFree=" + isFree +
+                ", courseOriginal=" + courseOriginal +
+                ", courseDiscount=" + courseDiscount +
+                ", isPutaway=" + isPutaway +
+                ", courseSort=" + courseSort +
+                ", countBuy=" + countBuy +
+                ", countStudy=" + countStudy +
+                ", periodTotal=" + periodTotal +
+                ", quiz='" + quiz + '\'' +
+                ", programId=" + programId +
+                '}';
     }
+
 }

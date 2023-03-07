@@ -4,10 +4,7 @@ import com.roncoo.education.common.core.base.BaseController;
 import com.roncoo.education.common.core.base.Page;
 import com.roncoo.education.common.core.base.Result;
 import com.roncoo.education.course.service.pc.biz.PcApiCourseBiz;
-import com.roncoo.education.course.service.pc.req.CourseGetREQ;
-import com.roncoo.education.course.service.pc.req.CoursePageREQ;
-import com.roncoo.education.course.service.pc.req.CourseUpdateREQ;
-import com.roncoo.education.course.service.pc.req.CourseViewREQ;
+import com.roncoo.education.course.service.pc.req.*;
 import com.roncoo.education.course.service.pc.resq.CourseGetRESQ;
 import com.roncoo.education.course.service.pc.resq.CoursePageRESQ;
 import com.roncoo.education.course.service.pc.resq.CourseViewRESQ;
@@ -74,6 +71,18 @@ public class PcApiCourseController extends BaseController {
     @RequestMapping(value = "/view", method = RequestMethod.POST)
     public Result<CourseViewRESQ> view(@RequestBody CourseViewREQ courseViewREQ) {
         return biz.view(courseViewREQ);
+    }
+
+    /**
+     * Program搜索课程接口
+     *
+     * @param courseProgramViewREQ
+     * @return
+     */
+    @ApiOperation(value = "Program搜索课程接口", notes = "Program搜索课程接口")
+    @RequestMapping(value = "/programsearch", method = RequestMethod.POST)
+    public Result<Page<CoursePageRESQ>> programsearch(@RequestBody CourseProgramViewREQ courseProgramViewREQ) {
+        return biz.listByProgram(courseProgramViewREQ);
     }
 
 }

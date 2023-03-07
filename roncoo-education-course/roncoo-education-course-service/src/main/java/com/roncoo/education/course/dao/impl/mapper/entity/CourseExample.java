@@ -1345,6 +1345,11 @@ public class CourseExample {
             addCriterion("period_total not between", value1, value2, "periodTotal");
             return (Criteria) this;
         }
+
+        public Criteria andProgramEqualTo(Long value) {
+            addCriterion("program_id =", value, "programId");
+            return (Criteria) this;
+        }
     }
 
     public static class Criteria extends GeneratedCriteria {

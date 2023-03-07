@@ -21,6 +21,8 @@ import com.roncoo.education.course.service.api.bo.CourseInfoPageBO;
 import com.roncoo.education.course.service.api.bo.CourseInfoSearchBO;
 import com.roncoo.education.course.service.api.bo.CourseVideoBO;
 import com.roncoo.education.course.service.api.dto.*;
+import com.roncoo.education.course.service.pc.req.CourseProgramViewREQ;
+import com.roncoo.education.course.service.pc.resq.CoursePageRESQ;
 import com.roncoo.education.user.feign.interfaces.IFeignLecturer;
 import com.roncoo.education.user.feign.interfaces.vo.LecturerVO;
 import org.elasticsearch.index.query.BoolQueryBuilder;
@@ -180,4 +182,16 @@ public class ApiCourseBiz {
         SearchHits<EsCourse> searchHits = elasticsearchRestTemplate.search(nsb.build(), EsCourse.class, IndexCoordinates.of(EsCourse.COURSE));
         return Result.success(EsPageUtil.transform(searchHits, bo.getPageCurrent(), bo.getPageSize(), CourseInfoSearchPageDTO.class));
     }
+
+    public Result<Page<CoursePageRESQ>> listByProgram(CourseProgramViewREQ req){
+        long programId = req.getProgramId();
+        CourseExample example = new CourseExample();
+        CourseExample.Criteria c = example.createCriteria();
+        c.andProgramEqualTo(programId);
+        example.setOrderByClause("sort desc,id desc");
+        Page<Course> page = courseDao.listForPage(req.getPageCurrent(), req.getPageSize(), example);
+        Page<CoursePageRESQ> listForPage = PageUtil.transform(page, CoursePageRESQ.class);
+        return Result.success(listForPage);
+    }
+
 }

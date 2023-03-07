@@ -11,6 +11,7 @@ com/roncoo/education/course/feign/biz/FeignCourseIntroduceAuditBiz.class
 com/roncoo/education/course/service/auth/bo/AuthCourseAuditListBO.class
 com/roncoo/education/course/service/auth/dto/AuthCourseUserStudyLogDTO.class
 com/roncoo/education/course/service/pc/PcApiZoneCourseController.class
+com/roncoo/education/course/dao/impl/mapper/entity/ProgramExample$GeneratedCriteria.class
 com/roncoo/education/course/dao/impl/mapper/entity/OrderInfoExample$Criteria.class
 com/roncoo/education/course/service/pc/req/AdvSaveREQ.class
 com/roncoo/education/course/service/pc/biz/PcApiZoneCourseBiz.class
@@ -20,6 +21,7 @@ com/roncoo/education/course/dao/impl/mapper/CourseIntroduceMapper.class
 com/roncoo/education/course/service/api/dto/CourseInfoSearchPageDTO.class
 com/roncoo/education/course/dao/impl/mapper/entity/DicExample$Criterion.class
 com/roncoo/education/course/dao/DicDao.class
+com/roncoo/education/course/dao/impl/ProgramDaoImpl.class
 com/roncoo/education/course/dao/impl/mapper/entity/CourseUserStudyExample.class
 com/roncoo/education/course/service/api/dto/CourseRecommendDTO.class
 com/roncoo/education/course/dao/impl/mapper/entity/CourseChapterPeriodAuditExample.class
@@ -54,6 +56,7 @@ com/roncoo/education/course/service/auth/bo/AuthCourseChapterPeriodAuditBO.class
 com/roncoo/education/course/feign/biz/FeignCourseVideoBiz.class
 com/roncoo/education/course/feign/FeignCourseController.class
 com/roncoo/education/course/dao/impl/OrderInfoDaoImpl$2.class
+com/roncoo/education/course/service/api/biz/ApiProgramBiz.class
 com/roncoo/education/course/service/auth/dto/AuthOrderPayDTO.class
 com/roncoo/education/course/service/auth/AuthApiCourseAuditController.class
 com/roncoo/education/course/dao/impl/mapper/entity/OrderPayExample$Criterion.class
@@ -83,6 +86,7 @@ com/roncoo/education/course/service/auth/dto/AuthOrderInfoListForLecturerDTO.cla
 com/roncoo/education/course/service/api/dto/CourseIntroduceDTO.class
 com/roncoo/education/course/service/auth/bo/AuthOrderInfoBO.class
 com/roncoo/education/course/dao/CourseUserStudyLogDao.class
+com/roncoo/education/course/dao/impl/mapper/entity/ProgramExample$Criterion.class
 com/roncoo/education/course/service/auth/bo/AuthOrderPayBO.class
 com/roncoo/education/course/dao/impl/mapper/entity/CourseChapterAuditExample$Criterion.class
 com/roncoo/education/course/service/pc/req/ZoneDeleteREQ.class
@@ -104,6 +108,7 @@ com/roncoo/education/course/service/auth/bo/AuthOrderInfoContinuePayBO.class
 com/roncoo/education/course/dao/impl/mapper/entity/CourseUserStudyExample$Criterion.class
 com/roncoo/education/course/service/auth/biz/AuthApiCourseUserStudyLogBiz.class
 com/roncoo/education/course/service/pc/biz/PcApiOrderPayBiz.class
+com/roncoo/education/course/service/api/dto/ProgramPageDTO.class
 com/roncoo/education/course/feign/FeignCourseIntroduceAuditController.class
 com/roncoo/education/course/dao/impl/mapper/entity/AdvExample.class
 com/roncoo/education/course/dao/impl/mapper/entity/CourseRecommendExample$Criteria.class
@@ -114,6 +119,7 @@ com/roncoo/education/course/feign/FeignCourseIntroduceController.class
 com/roncoo/education/course/service/auth/dto/AuthCourseChapterAuditDTO.class
 com/roncoo/education/course/feign/FeignDicListController.class
 com/roncoo/education/course/dao/impl/mapper/entity/CourseCategoryExample$GeneratedCriteria.class
+com/roncoo/education/course/dao/impl/mapper/entity/ProgramExample.class
 com/roncoo/education/course/service/pc/PcApiAdvController.class
 com/roncoo/education/course/service/auth/bo/AuthOrderInfoViewBO.class
 com/roncoo/education/course/service/auth/biz/AuthApiOrderInfoBiz$updateCount.class
@@ -155,6 +161,7 @@ com/roncoo/education/course/service/api/bo/AdvBO.class
 com/roncoo/education/course/service/pc/resq/AdvPageRESQ.class
 com/roncoo/education/course/service/pc/req/CourseRecommendViewREQ.class
 com/roncoo/education/course/service/auth/bo/AuthCourseAuditStandBO.class
+com/roncoo/education/course/dao/impl/mapper/ProgramMapper.class
 com/roncoo/education/course/service/auth/dto/AuthCourseVideoListDTO.class
 com/roncoo/education/course/feign/biz/FeignCourseChapterPeriodAuditBiz.class
 com/roncoo/education/course/service/pc/resq/CourseAuditGetRESQ.class
@@ -180,6 +187,7 @@ com/roncoo/education/course/dao/impl/mapper/entity/CourseChapterAuditExample$Gen
 com/roncoo/education/course/dao/impl/mapper/entity/Adv.class
 com/roncoo/education/course/dao/impl/mapper/entity/CourseRecommendExample$Criterion.class
 com/roncoo/education/course/service/pc/req/ZoneSaveREQ.class
+com/roncoo/education/course/dao/impl/mapper/entity/ProgramExample$Criteria.class
 com/roncoo/education/course/service/auth/bo/AuthCourseAuditSaveBO.class
 com/roncoo/education/course/service/auth/AuthApiOrderInfoController.class
 com/roncoo/education/course/service/pc/resq/CourseAuditPageRESQ.class
@@ -259,6 +267,8 @@ com/roncoo/education/course/service/auth/bo/AuthCourseChapterPeriodAuditSaveBO.c
 com/roncoo/education/course/service/auth/biz/AuthApiCourseCategoryBiz.class
 com/roncoo/education/course/dao/impl/mapper/entity/CourseVideoExample$Criteria.class
 com/roncoo/education/course/service/api/dto/CourseViewDTO.class
+com/roncoo/education/course/service/api/bo/ProgramInfoPageBO.class
+com/roncoo/education/course/service/api/dto/ProgramDTO.class
 com/roncoo/education/course/service/auth/AuthApiCourseChapterPeriodAuditController.class
 com/roncoo/education/course/feign/FeignZoneCourseController.class
 com/roncoo/education/course/service/pc/resq/ZoneCourseViewRESQ.class
@@ -287,6 +297,7 @@ com/roncoo/education/course/dao/impl/mapper/entity/ZoneCourseExample$Criteria.cl
 com/roncoo/education/course/feign/FeignAdvController.class
 com/roncoo/education/course/dao/impl/DicDaoImpl.class
 com/roncoo/education/course/dao/impl/mapper/entity/CourseUserStudyExample$Criteria.class
+com/roncoo/education/course/dao/impl/mapper/entity/Program.class
 com/roncoo/education/course/service/api/bo/PeriodUploadDocBO.class
 com/roncoo/education/course/dao/impl/mapper/AdvMapper.class
 com/roncoo/education/course/feign/biz/FeignAdvBiz.class
@@ -352,6 +363,7 @@ com/roncoo/education/course/service/pc/PcApiCourseRecommendController.class
 com/roncoo/education/course/feign/FeignCourseUserStudyLogController.class
 com/roncoo/education/course/dao/impl/mapper/entity/CourseChapterAuditExample.class
 com/roncoo/education/course/service/auth/dto/AuthCourseChapterAuditSaveDTO.class
+com/roncoo/education/course/service/api/dto/ProgramListDTO.class
 com/roncoo/education/course/service/pc/req/ZoneCoursePageREQ.class
 com/roncoo/education/course/dao/CourseIntroduceAuditDao.class
 com/roncoo/education/course/service/api/bo/ZoneBO.class
@@ -365,6 +377,7 @@ com/roncoo/education/course/dao/impl/ZoneCourseDaoImpl.class
 com/roncoo/education/course/feign/FeignCourseVideoController.class
 com/roncoo/education/course/dao/impl/mapper/entity/CourseIntroduceExample$Criteria.class
 com/roncoo/education/course/dao/impl/mapper/entity/CourseCategoryExample$Criterion.class
+com/roncoo/education/course/service/api/ApiProgramController.class
 com/roncoo/education/course/dao/impl/OrderPayDaoImpl.class
 com/roncoo/education/course/dao/impl/mapper/entity/Zone.class
 com/roncoo/education/course/service/auth/AuthApiCourseUserStudyLogController.class
@@ -402,6 +415,7 @@ com/roncoo/education/course/dao/impl/mapper/ZoneMapper.class
 com/roncoo/education/course/dao/impl/mapper/entity/CourseUserStudy.class
 com/roncoo/education/course/dao/impl/CourseRecommendDaoImpl.class
 com/roncoo/education/course/service/auth/bo/AuthPeriodIdVideoBO.class
+com/roncoo/education/course/dao/ProgramDao.class
 com/roncoo/education/course/feign/FeignCourseRecommendController.class
 com/roncoo/education/course/feign/FeignOrderInfoController.class
 com/roncoo/education/course/service/pc/req/ZonePageREQ.class

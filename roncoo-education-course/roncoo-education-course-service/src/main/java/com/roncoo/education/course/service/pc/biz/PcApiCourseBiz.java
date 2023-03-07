@@ -12,10 +12,7 @@ import com.roncoo.education.common.es.EsCourse;
 import com.roncoo.education.course.dao.*;
 import com.roncoo.education.course.dao.impl.mapper.entity.*;
 import com.roncoo.education.course.dao.impl.mapper.entity.CourseExample.Criteria;
-import com.roncoo.education.course.service.pc.req.CourseGetREQ;
-import com.roncoo.education.course.service.pc.req.CoursePageREQ;
-import com.roncoo.education.course.service.pc.req.CourseUpdateREQ;
-import com.roncoo.education.course.service.pc.req.CourseViewREQ;
+import com.roncoo.education.course.service.pc.req.*;
 import com.roncoo.education.course.service.pc.resq.*;
 import com.roncoo.education.user.feign.interfaces.IFeignLecturer;
 import com.roncoo.education.user.feign.interfaces.vo.LecturerVO;
@@ -296,6 +293,17 @@ public class PcApiCourseBiz extends BaseBiz {
             resq.setCourseChapterList(courseChapterVOList);
         }
         return Result.success(resq);
+    }
+
+    public Result<Page<CoursePageRESQ>> listByProgram(CourseProgramViewREQ req){
+        long programId = req.getProgramId();
+        CourseExample example = new CourseExample();
+        CourseExample.Criteria c = example.createCriteria();
+        c.andProgramEqualTo(programId);
+        example.setOrderByClause("sort desc,id desc");
+        Page<Course> page = dao.listForPage(req.getPageCurrent(), req.getPageSize(), example);
+        Page<CoursePageRESQ> listForPage = PageUtil.transform(page, CoursePageRESQ.class);
+        return Result.success(listForPage);
     }
 
 }

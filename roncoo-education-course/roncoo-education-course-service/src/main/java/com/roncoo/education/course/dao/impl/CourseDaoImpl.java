@@ -87,4 +87,16 @@ public class CourseDaoImpl implements CourseDao {
         example.setOrderByClause("sort desc,id desc");
         return this.courseMapper.selectByExample(example);
     }
+
+    public Page<Course> listByProgram(int pageCurrent, int pageSize, CourseExample example){
+        int count = this.courseMapper.countByExample(example);
+        pageSize = PageUtil.checkPageSize(pageSize);
+        pageCurrent = PageUtil.checkPageCurrent(count, pageSize, pageCurrent);
+        int totalPage = PageUtil.countTotalPage(count, pageSize);
+        example.setLimitStart(PageUtil.countOffset(pageCurrent, pageSize));
+        example.setPageSize(pageSize);
+        return new Page<Course>(count, totalPage, pageCurrent, pageSize, this.courseMapper.selectByExample(example));
+
+
+    }
 }

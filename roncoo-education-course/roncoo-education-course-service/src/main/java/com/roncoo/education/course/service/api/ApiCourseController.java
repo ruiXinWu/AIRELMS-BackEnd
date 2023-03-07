@@ -10,6 +10,8 @@ import com.roncoo.education.course.service.api.bo.CourseVideoBO;
 import com.roncoo.education.course.service.api.dto.CourseInfoPageDTO;
 import com.roncoo.education.course.service.api.dto.CourseInfoSearchPageDTO;
 import com.roncoo.education.course.service.api.dto.CourseViewDTO;
+import com.roncoo.education.course.service.pc.req.CourseProgramViewREQ;
+import com.roncoo.education.course.service.pc.resq.CoursePageRESQ;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -65,4 +67,17 @@ public class ApiCourseController extends BaseController {
     public Result<Page<CourseInfoSearchPageDTO>> view(@RequestBody CourseInfoSearchBO courseInfoSearchBO) {
         return biz.searchList(courseInfoSearchBO);
     }
+    /**
+     * Program搜索课程接口
+     *
+     * @param courseProgramViewREQ
+     * @return
+     */
+    @ApiOperation(value = "Program搜索课程接口", notes = "Program搜索课程接口")
+    @RequestMapping(value = "/programsearch", method = RequestMethod.POST)
+    public Result<Page<CoursePageRESQ>> programsearch(@RequestBody CourseProgramViewREQ courseProgramViewREQ) {
+        return biz.listByProgram(courseProgramViewREQ);
+    }
+
 }
+

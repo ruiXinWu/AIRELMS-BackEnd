@@ -7,6 +7,7 @@
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/feign/FeignDicController.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/CourseChapterPeriodAudit.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/callback/bo/CallbackOrderBO.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/biz/ApiProgramBiz.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/CourseCategoryExample.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/req/CourseUserStudyLogPlayREQ.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/auth/biz/AuthApiCourseBiz.java
@@ -38,6 +39,7 @@
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/req/AdvUpdateREQ.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/auth/dto/AuthCourseChapterAuditListDTO.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/dto/CourseCategoryDTO.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/dto/ProgramListDTO.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/bo/OrderInfoPayNotifyBO.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/CourseUserStudyMapper.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/feign/FeignCourseChapterAuditController.java
@@ -58,6 +60,7 @@
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/auth/dto/AuthOrderPayDTO.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/resq/CourseAuditViewRESQ.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/auth/dto/AuthCourseAuditListDTO.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/ProgramDaoImpl.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/auth/biz/AuthApiCourseChapterPeriodAuditBiz.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/CourseChapterPeriodMapper.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/dto/CourseInfoSearchPageDTO.java
@@ -106,6 +109,7 @@
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/CourseUserStudyDaoImpl.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/feign/biz/FeignCourseIntroduceAuditBiz.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/PcApiCourseCategoryController.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/ProgramExample.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/ZoneMapper.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/biz/ApiCourseVideoBiz.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/DicExample.java
@@ -148,6 +152,7 @@
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/resq/CourseCategoryViewRESQ.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/ZoneCourseMapper.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/PcApiZoneController.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/ProgramDao.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/biz/PcApiAdvBiz.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/CourseIntroduceExample.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/CourseUserStudyLogDao.java
@@ -170,6 +175,7 @@
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/req/AdvPageREQ.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/bo/CourseBO.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/CourseChapterDaoImpl.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/bo/ProgramInfoPageBO.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/PcApiAdvController.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/CourseUserStudyLogDaoImpl.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/CourseChapterPeriodAuditMapper.java
@@ -188,8 +194,10 @@
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/CourseChapter.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/req/AdvDeleteREQ.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/req/CourseAuditPageREQ.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/dto/ProgramPageDTO.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/biz/PcApiCourseRecommendBiz.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/auth/biz/AuthApiCourseAuditBiz.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/ApiProgramController.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/CourseServiceApplication.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/req/OrderInfoUpdateREQ.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/feign/biz/FeignCourseChapterBiz.java
@@ -221,6 +229,7 @@
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/Adv.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/req/AdvSaveREQ.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/CourseDao.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/ProgramMapper.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/biz/PcApiCourseAuditBiz.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/feign/FeignZoneController.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/CourseUserStudyLog.java
@@ -233,6 +242,7 @@
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/DicList.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/CourseChapterPeriodDao.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/auth/bo/AuthCourseUserStudyLogPageBO.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/dto/ProgramDTO.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/req/ZonePageREQ.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/auth/bo/AuthCourseAuditStandBO.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/auth/bo/AuthCourseChapterAuditSaveBO.java
@@ -275,6 +285,7 @@
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/req/OrderInfoPageREQ.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/req/OrderInfoStatisticalREQ.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/req/ZoneCoursePageREQ.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/Program.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/feign/FeignOrderInfoController.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/CourseUserStudyDao.java
 /Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/CourseChapterAuditExample.java
