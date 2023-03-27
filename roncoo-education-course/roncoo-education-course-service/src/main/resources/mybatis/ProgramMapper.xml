@@ -220,4 +220,9 @@
         from program
         where program_name like "%"#{description,jdbcType=LONGVARCHAR}"%" or description like "%"#{description,jdbcType=LONGVARCHAR}"%"
     </select>
+    <select id="listAll" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from program
+    </select>
 </mapper>

@@ -27,4 +27,6 @@ public interface ProgramMapper {
     int updateByPrimaryKeySelective(ProgramExample record);
 
     List<Program> searchByNameOrDescription(String description);
+
+    List<Program> listAll();
 }

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.roncoo.education.course.dao.impl.mapper.ProgramMapper">
-    <resultMap id="BaseResultMap" type="com.roncoo.education.course.dao.impl.mapper.entity.Program">
+<mapper namespace="com.roncoo.education.course.dao.impl.mapper.CategoryProgramMapper">
+    <resultMap id="BaseResultMap" type="com.roncoo.education.course.dao.impl.mapper.entity.CategoryProgram">
         <id column="id" property="id" jdbcType="BIGINT"/>
-        <result column="sort" property="sort" jdbcType="INTEGER"/>
+        <result column="category_id" property="categoryId" jdbcType="BIGINT"/>
+        <result column="category_name" property="categoryName" jdbcType="VARCHAR"/>
+        <result column="program_id" property="programId" jdbcType="BIGINT"/>
         <result column="program_name" property="programName" jdbcType="VARCHAR"/>
-        <result column="program_logo" property="programLogo" jdbcType="VARCHAR"/>
-        <result column="description" property="description" jdbcType="LONGVARCHAR"/>
     </resultMap>
     <sql id="Example_Where_Clause">
         <where>
@@ -69,16 +69,16 @@
         </where>
     </sql>
     <sql id="Base_Column_List">
-        id, sort, program_name, program_logo, description
+        id, category_id, category_name, program_id, program_name
     </sql>
     <select id="selectByExample" resultMap="BaseResultMap"
-            parameterType="com.roncoo.education.course.dao.impl.mapper.entity.ProgramExample">
+            parameterType="com.roncoo.education.course.dao.impl.mapper.entity.CategoryProgramExample">
         select
         <if test="distinct">
             distinct
         </if>
         <include refid="Base_Column_List"/>
-        from program
+        from CategoryProgram
         <if test="_parameter != null">
             <include refid="Example_Where_Clause"/>
         </if>
@@ -99,18 +99,18 @@
         delete from program
         where id = #{id,jdbcType=BIGINT}
     </delete>
-    <delete id="deleteByExample" parameterType="com.roncoo.education.course.dao.impl.mapper.entity.ProgramExample">
+    <delete id="deleteByExample" parameterType="com.roncoo.education.course.dao.impl.mapper.entity.CategoryProgramExample">
         delete from program
         <if test="_parameter != null">
             <include refid="Example_Where_Clause"/>
         </if>
     </delete>
-    <insert id="insert" parameterType="com.roncoo.education.course.dao.impl.mapper.entity.Program">
+    <insert id="insert" parameterType="com.roncoo.education.course.dao.impl.mapper.entity.CategoryProgram">
         insert into course (id, sort, program_name, program_logo)
         values (#{id,jdbcType=BIGINT}, #{sort,jdbcType=INTEGER}, #{program_name,jdbcType=VARCHAR},
-        #{program_logo,jdbcType=VARCHAR})
+                #{program_logo,jdbcType=VARCHAR})
     </insert>
-    <insert id="insertSelective" parameterType="com.roncoo.education.course.dao.impl.mapper.entity.Program">
+    <insert id="insertSelective" parameterType="com.roncoo.education.course.dao.impl.mapper.entity.CategoryProgram">
         insert into program
         <trim prefix="(" suffix=")" suffixOverrides=",">
             <if test="id != null">
@@ -147,7 +147,7 @@
             </if>
         </trim>
     </insert>
-    <select id="countByExample" parameterType="com.roncoo.education.course.dao.impl.mapper.entity.ProgramExample"
+    <select id="countByExample" parameterType="com.roncoo.education.course.dao.impl.mapper.entity.CategoryProgramExample"
             resultType="java.lang.Integer">
         select count(*) from program
         <if test="_parameter != null">
@@ -188,7 +188,7 @@
             <include refid="Update_By_Example_Where_Clause"/>
         </if>
     </update>
-    <update id="updateByPrimaryKeySelective" parameterType="com.roncoo.education.course.dao.impl.mapper.entity.Program">
+    <update id="updateByPrimaryKeySelective" parameterType="com.roncoo.education.course.dao.impl.mapper.entity.CategoryProgram">
         update program
         <set>
             <if test="sort != null">
@@ -206,23 +206,23 @@
         </set>
         where id = #{id,jdbcType=BIGINT}
     </update>
-    <update id="updateByPrimaryKey" parameterType="com.roncoo.education.course.dao.impl.mapper.entity.Program">
+    <update id="updateByPrimaryKey" parameterType="com.roncoo.education.course.dao.impl.mapper.entity.CategoryProgram">
         update program
         set sort = #{sort,jdbcType=INTEGER},
-        program_name = #{programName,jdbcType=VARCHAR},
-        program_logo = #{programLogo,jdbcType=VARCHAR},
-        description = #{description,jdbcType=LONGVARCHAR},
-        where id = #{id,jdbcType=BIGINT}
+            program_name = #{programName,jdbcType=VARCHAR},
+            program_logo = #{programLogo,jdbcType=VARCHAR},
+            description = #{description,jdbcType=LONGVARCHAR},
+            where id = #{id,jdbcType=BIGINT}
     </update>
-    <select id="searchByNameOrDescription" resultMap="BaseResultMap" parameterType="com.roncoo.education.course.dao.impl.mapper.entity.Program">
+    <select id="listDistinctSkill" resultMap="BaseResultMap" parameterType="com.roncoo.education.course.dao.impl.mapper.entity.CategoryProgram">
         select
         <include refid="Base_Column_List"/>
-        from program
-        where program_name like "%"#{description,jdbcType=LONGVARCHAR}"%" or description like "%"#{description,jdbcType=LONGVARCHAR}"%"
+        from CategoryProgram
+        group by skill_name
     </select>
-    <select id="listAll" resultMap="BaseResultMap">
+    <select id="list" resultMap="BaseResultMap" parameterType="java.lang.Long">
         select
         <include refid="Base_Column_List"/>
-        from program
+        from CategoryProgram
     </select>
 </mapper>

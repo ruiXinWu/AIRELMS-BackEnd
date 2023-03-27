@@ -10,6 +10,7 @@ import com.roncoo.education.course.service.api.bo.ProgramInfoPageBO;
 import com.roncoo.education.course.service.api.dto.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import com.roncoo.education.course.service.api.biz.ApiProgramSkillBiz;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +25,9 @@ public class ApiProgramBiz {
 
     @Autowired
     private ProgramDao programDao;
+
+    @Autowired
+    private ApiProgramSkillBiz apiProgramSkillBiz;
 
     /**
      * 项目信息列表接口
@@ -43,11 +47,14 @@ public class ApiProgramBiz {
         return Result.success(PageUtil.transform(page, ProgramPageDTO.class));
     }
 
-    public Result<ProgramDTO> getProgramById(ProgramInfoPageBO programInfoBO){
+    public Result<ProgramSkillFullDTO> getProgramById(ProgramInfoPageBO programInfoBO){
         Long id = programInfoBO.getId();
         Program program = programDao.getById(id);
-        ProgramDTO programDTO = BeanUtil.copyProperties(program, ProgramDTO.class);
-        return Result.success(programDTO);
+        ProgramSkillFullDTO programSkillFullDTO = new ProgramSkillFullDTO();
+        List<Skill> skillList = apiProgramSkillBiz.getByProgramName(program.getProgramName());
+        programSkillFullDTO.setProgram(program);
+        programSkillFullDTO.setSkillDTO(skillList);
+        return Result.success(programSkillFullDTO);
     }
 
     public Result<ProgramListDTO> searchByProgramNameOrDescription(ProgramInfoPageBO programInfoBO){
@@ -68,6 +75,31 @@ public class ApiProgramBiz {
         Program program = programDao.getById(id);
         ProgramDTO programDTO = BeanUtil.copyProperties(program, ProgramDTO.class);
         return programDTO;
+    }
+
+    public Program getProgramById1(Long id){
+        Program program = programDao.getById(id);
+        return program;
+    }
+
+    public Result<ProgramSkillFullListDTO> listProgram(){
+        List<Program> programList = programDao.listProgram();
+        ProgramSkillFullListDTO programSkillFullListDTO = programToSkillFullList((programList));
+        return Result.success(programSkillFullListDTO);
+    }
+
+    public ProgramSkillFullListDTO programToSkillFullList(List<Program> programList){
+        List<ProgramSkillFullDTO> list = new ArrayList<>();
+        for(Program program : programList){
+            List<Skill> skillList= apiProgramSkillBiz.getByProgramName(program.getProgramName());
+            ProgramSkillFullDTO programSkillFullDTO = new ProgramSkillFullDTO();
+            programSkillFullDTO.setProgram(program);
+            programSkillFullDTO.setSkillDTO(skillList);
+            list.add(programSkillFullDTO);
+        }
+        ProgramSkillFullListDTO programSkillFullListDTO = new ProgramSkillFullListDTO();
+        programSkillFullListDTO.setList(list);
+        return programSkillFullListDTO;
     }
 
 

@@ -20,6 +20,7 @@ public interface ProgramSkillDao {
     public List<ProgramSkill> getByProgramName(String programName);
 
     public List<ProgramSkill> getBySkillName(String skillName);
+    public List<ProgramSkill> getBySkillId(Long skillId);
 
     public List<ProgramSkill> listDistinctSkill();
 }

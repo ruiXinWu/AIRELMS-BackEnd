@@ -47,8 +47,32 @@ public class ApiProgramSkillBiz {
         return Result.success(programSkillListDTO);
     }
 
+    public List<Skill> getByProgramName(String programName) {
+        List<ProgramSkill> programSkillList = programSkillDao.getByProgramName(programName);
+        List<Skill> skillList = new ArrayList<>();
+        for(ProgramSkill programSkill : programSkillList){
+            Skill skill = new Skill();
+            skill.setName(programSkill.getSkillName());
+            skill.setId(programSkill.getSkillId());
+            skillList.add(skill);
+        }
+        return skillList;
+    }
+
     public Result<ProgramListDTO> getBySkillName(ProgramInfoPageBO programInfoPageBO) {
         List<ProgramSkill> programSkillList = programSkillDao.getBySkillName(programInfoPageBO.getSkillName());
+        ProgramListDTO programListDTO = new ProgramListDTO();
+        List<ProgramDTO> list = new ArrayList();
+        for(ProgramSkill programSkill : programSkillList){
+            ProgramDTO programDTO = programBiz.getProgramById(programSkill.getProgramId());
+            list.add(programDTO);
+        }
+        programListDTO.setList(list);
+        return Result.success(programListDTO);
+    }
+
+    public Result<ProgramListDTO> getBySkillId(ProgramInfoPageBO programInfoPageBO) {
+        List<ProgramSkill> programSkillList = programSkillDao.getBySkillId(programInfoPageBO.getSkillId());
         ProgramListDTO programListDTO = new ProgramListDTO();
         List<ProgramDTO> list = new ArrayList();
         for(ProgramSkill programSkill : programSkillList){

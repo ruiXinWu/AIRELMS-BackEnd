@@ -5,10 +5,8 @@ import com.roncoo.education.common.core.base.Result;
 import com.roncoo.education.common.core.base.BaseController;
 import com.roncoo.education.course.service.api.biz.ApiProgramBiz;
 import com.roncoo.education.course.service.api.bo.ProgramInfoPageBO;
-import com.roncoo.education.course.service.api.dto.ProgramListDTO;
-import com.roncoo.education.course.service.api.dto.ProgramDTO;
+import com.roncoo.education.course.service.api.dto.*;
 
-import com.roncoo.education.course.service.api.dto.ProgramPageDTO;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -37,8 +35,8 @@ public class ApiProgramController extends BaseController {
      */
     @ApiOperation(value = "项目列表接口", notes = "根据条件分页列出项目信息")
     @RequestMapping(value = "/list", method = RequestMethod.POST)
-    public Result<Page<ProgramPageDTO>> list(@RequestBody ProgramInfoPageBO programInfoPageBO) {
-        return biz.list(programInfoPageBO);
+    public Result<ProgramSkillFullListDTO> list() {
+        return biz.listProgram();
     }
 
     /**
@@ -50,7 +48,7 @@ public class ApiProgramController extends BaseController {
      */
     @ApiOperation(value = "项目接口", notes = "根据项目ID得到项目详细信息")
     @RequestMapping(value = "/searchbyid", method = RequestMethod.POST)
-    public Result<ProgramDTO> getProgramById(@RequestBody ProgramInfoPageBO programInfoPageBO) {
+    public Result<ProgramSkillFullDTO> getProgramById(@RequestBody ProgramInfoPageBO programInfoPageBO) {
         return biz.getProgramById(programInfoPageBO);
     }
 

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class ProgramSkillExample {
+public class CategoryProgramExample {
     protected String orderByClause;
 
     protected boolean distinct;
@@ -16,7 +16,7 @@ public class ProgramSkillExample {
 
     protected int pageSize = -1;
 
-    public ProgramSkillExample() {
+    public CategoryProgramExample() {
         oredCriteria = new ArrayList<Criteria>();
     }
 
@@ -513,6 +513,11 @@ public class ProgramSkillExample {
 
         public Criteria andCategoryId1GreaterThanOrEqualTo(Long value) {
             addCriterion("category_id1 >=", value, "categoryId1");
+            return (Criteria) this;
+        }
+
+        public Criteria andCategoryIdEqualTo(Long value) {
+            addCriterion("category_id =", value, "categoryId");
             return (Criteria) this;
         }
 
@@ -1358,11 +1363,6 @@ public class ProgramSkillExample {
 
         public Criteria andSkillNameEqualTo(String value){
             addCriterion("skill_name =", value, "skillName");
-            return (Criteria) this;
-        }
-
-        public Criteria andSkillIdEqualTo(Long value){
-            addCriterion("skill_id =", value, "skillId");
             return (Criteria) this;
         }
     }

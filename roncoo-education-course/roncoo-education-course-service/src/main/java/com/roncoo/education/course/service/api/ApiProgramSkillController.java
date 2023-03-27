@@ -66,4 +66,14 @@ public class ApiProgramSkillController extends BaseController {
     public Result<ProgramSkillListDTO> listDistinctSkill() {
         return biz.ListDistinctSkill();
     }
+
+    @ApiOperation(value = "getbyskillid接口", notes = "skill id")
+    @RequestMapping(value = "/getbyskillid", method = RequestMethod.POST)
+    public Result<ProgramListDTO> getBySkillId(@RequestBody ProgramInfoPageBO programInfoPageBO) {
+        return biz.getBySkillId(programInfoPageBO);
+    }
+
+
+
+
 }

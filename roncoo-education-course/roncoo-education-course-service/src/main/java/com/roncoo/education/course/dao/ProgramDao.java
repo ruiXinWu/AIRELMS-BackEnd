@@ -18,4 +18,6 @@ public interface ProgramDao {
     Page<Program> listForPage(int pageCurrent, int pageSize, ProgramExample program);
 
     public List<Program> searchByProgramNameOrDescription(String description);
+
+    public List<Program> listProgram();
 }

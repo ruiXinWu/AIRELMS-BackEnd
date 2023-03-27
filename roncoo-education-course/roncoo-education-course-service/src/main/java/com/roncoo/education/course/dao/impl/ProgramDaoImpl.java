@@ -51,4 +51,8 @@ public class ProgramDaoImpl implements ProgramDao {
     public List<Program> searchByProgramNameOrDescription(String description){
         return this.programMapper.searchByNameOrDescription(description);
     }
+
+    public List<Program> listProgram(){
+        return this.programMapper.listAll();
+    }
 }

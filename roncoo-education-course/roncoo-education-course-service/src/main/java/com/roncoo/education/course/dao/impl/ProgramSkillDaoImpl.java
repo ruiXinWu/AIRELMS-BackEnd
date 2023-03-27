@@ -61,6 +61,13 @@ public class ProgramSkillDaoImpl implements ProgramSkillDao {
         return this.programSkillMapper.selectByExample(example);
     }
 
+    public List<ProgramSkill> getBySkillId(Long skillId){
+        ProgramSkillExample example = new ProgramSkillExample();
+        ProgramSkillExample.Criteria c = example.createCriteria();
+        c.andSkillIdEqualTo(skillId);
+        return this.programSkillMapper.selectByExample(example);
+    }
+
     public List<ProgramSkill> listDistinctSkill(){
         return this.programSkillMapper.listDistinctSkill();
     }
