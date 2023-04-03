@@ -64,4 +64,10 @@ public class ApiProgramController extends BaseController {
     public Result<ProgramListDTO> searchByProgramNameOrDescription(@RequestBody ProgramInfoPageBO programInfoPageBO) {
         return biz.searchByProgramNameOrDescription(programInfoPageBO);
     }
+
+    @ApiOperation(value = "getofficehourbyprogramid接口", notes = "program id")
+    @RequestMapping(value = "/getofficehourbyprogramid", method = RequestMethod.POST)
+    public Result<OfficeHourListDTO> getOfficeHourByProgramId(@RequestBody ProgramInfoPageBO programInfoPageBO) {
+        return biz.getOfficeHourByProgramId(programInfoPageBO);
+    }
 }

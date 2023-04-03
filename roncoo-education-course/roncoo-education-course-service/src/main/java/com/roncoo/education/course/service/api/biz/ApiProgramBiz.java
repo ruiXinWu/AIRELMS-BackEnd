@@ -11,6 +11,7 @@ import com.roncoo.education.course.service.api.dto.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import com.roncoo.education.course.service.api.biz.ApiProgramSkillBiz;
+import com.roncoo.education.course.dao.OfficeHourDao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +28,16 @@ public class ApiProgramBiz {
     private ProgramDao programDao;
 
     @Autowired
+    private OfficeHourDao officeHourDao;
+
+
+
+
+    @Autowired
     private ApiProgramSkillBiz apiProgramSkillBiz;
+
+    public ApiProgramBiz() {
+    }
 
     /**
      * 项目信息列表接口
@@ -102,5 +112,23 @@ public class ApiProgramBiz {
         return programSkillFullListDTO;
     }
 
+    public Result<OfficeHourListDTO> getOfficeHourByProgramId(ProgramInfoPageBO programInfoBO){
+        Long programId = programInfoBO.getId();
+        List<OfficeHour> officeHour = officeHourDao.searchByProgramId(programId);
+        List<OfficeHourDTO> officeHourDTOList = new ArrayList();
+        OfficeHourListDTO officeHourListDTO = new OfficeHourListDTO();
+        for(OfficeHour oh : officeHour){
+            OfficeHourDTO officeHourDTO = BeanUtil.copyProperties(oh,OfficeHourDTO.class);
+            officeHourDTOList.add(officeHourDTO);
+        }
+        officeHourListDTO.setList(officeHourDTOList);
+        return Result.success(officeHourListDTO);
+    }
+
+
+
+
 
 }
+
+
