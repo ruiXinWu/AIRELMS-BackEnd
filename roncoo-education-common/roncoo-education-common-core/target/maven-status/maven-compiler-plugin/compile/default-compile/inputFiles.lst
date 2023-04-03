@@ -1,108 +1,108 @@
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/ThreadLocalUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/PolyvAuthResult.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/FundDirectionEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/CookieUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsReadEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/VideoStatusEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/WebUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/ObjectMapUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsShowUserEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/NOUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/IdWorker.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/JSUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/HiddenTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/BeanUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/PlatformEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsShowEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/UploadFileResult.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/aliyun/Aliyun.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/CategoryTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/Bjui.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/NavEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/MsgTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/UploadFile.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/Constants.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/ProfitStatusEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/BaseCached.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/recruitTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/VideoTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/DateUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsTimeSendEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/RedisPreEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/pay/MerchantApiUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/SqlUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/ZoneLocationEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/Vimeo/VimeoUpload.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsFreeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/pay/PayUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsHfield.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/PolyvSignResult.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/ArrayListUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/CourseCategoryEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsTopEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/LoginStatusEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/TradeTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/PolyvUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/HasNoticeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/config/ConfigUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/EnumUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/Question.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/PlatformShowEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/AuditStatusEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/JWTUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/DateFormatEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/VerificationCodeUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/HttpUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/ExtractStatusEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/ImgUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/BaseBiz.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/StrUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsShowServiceEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsPayEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsVideoEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/PDFUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/OperateTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/UserTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/FloorEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/PayTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsEnableStatisticsEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/PayProductTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/ChannelTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/aliyun/AWSUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/CourseTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/config/SystemUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/OrderStatusEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/Vimeo/PathTest.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/FileTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/PolyvCode.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/TargetEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/SignUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/MenuTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/FileClassifyEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsDefaultEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/SHA1Util.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/aliyun/AliyunUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/MD5Util.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/TradeStatusEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/PolyvVideo.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/BaseController.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/PolyvAuth.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsPutawayEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/QuestionResult.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/AdvTargetEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/SexEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/BaseException.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/Result.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/Page.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/Base.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/StatusIdEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/annotation/AdminLog.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/PageUtil.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsStudyEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsSuccessEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/PolyvSign.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/SourceTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsSendEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/ResultEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/SysTypeEnum.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsDocEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/aliyun/AWSUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/ResultEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/PayTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsShowServiceEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsPayEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/pay/MerchantApiUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/annotation/AdminLog.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/ExtractStatusEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/Base.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/EnumUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/PlatformShowEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/PolyvSign.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/ChannelTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/PlatformEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/QuestionResult.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/aliyun/Aliyun.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/Vimeo/PathTest.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/SysTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/PolyvUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsTopEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/FloorEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/OperateTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsStudyEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/CourseCategoryEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/TargetEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsSendEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/UploadFileResult.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/CategoryTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/ThreadLocalUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/PageUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/PDFUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/aliyun/AliyunUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/SexEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/PolyvAuthResult.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/SignUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsPutawayEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/config/SystemUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/SqlUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/Page.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/AdvTargetEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/ZoneLocationEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/SourceTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/MD5Util.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/FileClassifyEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/CourseTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/PolyvAuth.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/RedisPreEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsDocEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/Vimeo/VimeoUpload.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsDefaultEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/IdWorker.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsSuccessEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/ArrayListUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/FundDirectionEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsShowEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/BaseCached.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/HttpUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsReadEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/VideoTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/DateUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/Constants.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/TradeStatusEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/DateFormatEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/JWTUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/PolyvVideo.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/TradeTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/PayProductTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/HiddenTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/NOUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/pay/PayUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/UploadFile.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/BaseController.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/VerificationCodeUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/JSUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/SHA1Util.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/recruitTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/ImgUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/FileTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/BaseException.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsShowUserEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/ProfitStatusEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/StrUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/StatusIdEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/config/ConfigUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsFreeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/AuditStatusEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/OrderStatusEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/WebUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/ObjectMapUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/VideoStatusEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/PolyvCode.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/LoginStatusEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/BaseBiz.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/NavEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/MsgTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsTimeSendEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/HasNoticeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/Bjui.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/PolyvSignResult.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/base/Result.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsEnableStatisticsEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/UserTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/CookieUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/tools/BeanUtil.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/MenuTypeEnum.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/polyv/Question.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsHfield.java
+/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-common/roncoo-education-common-core/src/main/java/com/roncoo/education/common/core/enums/IsVideoEnum.java
