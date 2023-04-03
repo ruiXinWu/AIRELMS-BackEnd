@@ -50,4 +50,8 @@ public class ProgramInfoPageBO implements Serializable {
     public String getSkillName() {
         return skillName;
     }
+
+    public Long getSkillId() {
+        return skillId;
+    }
 }

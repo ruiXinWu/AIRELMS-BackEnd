@@ -7,9 +7,11 @@ import com.roncoo.education.course.service.api.biz.ApiProgramSkillBiz;
 import com.roncoo.education.course.service.api.bo.ProgramInfoPageBO;
 import com.roncoo.education.course.service.api.dto.ProgramSkillListDTO;
 import com.roncoo.education.course.service.api.dto.ProgramListDTO;
+import com.roncoo.education.course.service.api.dto.ProgramSkillFullListDTO;
 
 import com.roncoo.education.course.service.api.dto.ProgramPageDTO;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.Scope;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -73,7 +75,11 @@ public class ApiProgramSkillController extends BaseController {
         return biz.getBySkillId(programInfoPageBO);
     }
 
-
+    @ApiOperation(value = "getfullbyskillid接口", notes = "skill id")
+    @RequestMapping(value = "/getfullbyskillid", method = RequestMethod.POST)
+    public Result<ProgramSkillFullListDTO> getFullBySkillId(@RequestBody ProgramInfoPageBO programInfoPageBO) {
+        return biz.getFullBySkillId(programInfoPageBO);
+    }
 
 
 }
