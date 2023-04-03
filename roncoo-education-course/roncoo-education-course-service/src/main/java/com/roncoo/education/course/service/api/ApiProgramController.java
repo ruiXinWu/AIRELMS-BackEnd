@@ -64,4 +64,10 @@ public class ApiProgramController extends BaseController {
     public Result<ProgramListDTO> searchByProgramNameOrDescription(@RequestBody ProgramInfoPageBO programInfoPageBO) {
         return biz.searchByProgramNameOrDescription(programInfoPageBO);
     }
+
+    @ApiOperation(value = "full项目搜索接口", notes = "根据项目名搜索项目并返回skill list field")
+    @RequestMapping(value = "/searchfullbyname", method = RequestMethod.POST)
+    public Result<ProgramSkillFullListDTO> searchFullByProgramName(@RequestBody ProgramInfoPageBO programInfoPageBO) {
+        return biz.searchFullByProgramName(programInfoPageBO);
+    }
 }

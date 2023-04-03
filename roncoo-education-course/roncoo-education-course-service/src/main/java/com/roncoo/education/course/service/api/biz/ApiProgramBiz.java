@@ -102,5 +102,21 @@ public class ApiProgramBiz {
         return programSkillFullListDTO;
     }
 
+    public Result<ProgramSkillFullListDTO> searchFullByProgramName(ProgramInfoPageBO programInfoBO){
+        String programName = programInfoBO.getProgramName();
+        List<Program> programList = programDao.searchByProgramNameOrDescription(programName);
+
+        List<ProgramSkillFullDTO> list = new ArrayList<>();
+        for(Program program : programList){
+            List<Skill> skillList= apiProgramSkillBiz.getByProgramName(program.getProgramName());
+            ProgramSkillFullDTO programSkillFullDTO = new ProgramSkillFullDTO();
+            programSkillFullDTO.setProgram(program);
+            programSkillFullDTO.setSkillDTO(skillList);
+            list.add(programSkillFullDTO);
+        }
+        ProgramSkillFullListDTO programSkillFullListDTO = new ProgramSkillFullListDTO();
+        programSkillFullListDTO.setList(list);
+        return Result.success(programSkillFullListDTO);
+    }
 
 }
