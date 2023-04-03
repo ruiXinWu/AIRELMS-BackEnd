@@ -5,676 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbcb42f8-e8b1-4d5b-9098-b9a0e55473f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/OfficeHourDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/ProjectDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/OfficeHourDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/ProjectDaolmpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/OfficeHourMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/ProjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/OfficeHour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/ApiProjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/biz/ApiProjectBiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/bo/ProjectBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/dto/OfficeHourDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/dto/OfficeHourListDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/dto/ProjectDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/resources/mybatis/OfficeHourMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/resources/mybatis/ProjectMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/CategoryProgramDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/CategoryProgramDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/CategoryProgramExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/ApiCategoryProgramController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/biz/ApiCategoryProgramBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/bo/CategoryProgramBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/dto/CategoryListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/dto/ProgramSkillFullDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/dto/ProgramSkillFullListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/resources/mybatis/CategoryProgramMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-gateway/target/app-gateway.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-gateway/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-gateway/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-gateway/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/app-job.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/classes/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/classes/com/roncoo/education/ServerJobApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/classes/com/roncoo/education/app/job/MsgSendCrontab.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/classes/com/roncoo/education/app/job/OrderCrontab.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/classes/com/roncoo/education/app/job/VideoCrontab.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-sba/target/app-sba.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-sba/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-sba/target/classes/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-sba/target/classes/com/roncoo/education/app/sba/ServerSbaApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-sba/target/classes/com/roncoo/education/app/sba/config/SecuritySecureConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-sba/target/classes/logback-roncoo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-sba/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-sba/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-sba/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-feign/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-feign/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-feign/target/roncoo-education-course-feign-10.0.0-RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/ProgramDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/ProgramDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/ProgramSkillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/ProgramSkillDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/ProgramDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/ProgramDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/ProgramSkillDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/ProgramSkillDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/ProgramMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/ProgramMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/Skill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/ApiProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/ApiProgramController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/ApiProgramSkillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/ApiProgramSkillController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/biz/ApiProgramBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/biz/ApiProgramBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/biz/ApiProgramSkillBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/biz/ApiProgramSkillBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/bo/ProgramInfoPageBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/bo/ProgramInfoPageBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/resources/mybatis/ProgramMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/resources/mybatis/ProgramMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/ProgramDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/ProgramDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/ProgramSkillDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/ProgramSkillDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/ProgramDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/ProgramDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/ProgramSkillDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/ProgramSkillDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/ProgramMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/ProgramMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/Skill.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/Skill.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/ApiProgramController.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/ApiProgramController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/ApiProgramSkillController.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/ApiProgramSkillController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/biz/ApiProgramBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/biz/ApiProgramBiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/course-service.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-feign/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-feign/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-feign/target/roncoo-education-system-feign-10.0.0-RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/SystemServiceApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/MsgDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/MsgTemplateDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/MsgUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/NavBarDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/SysDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/SysLogDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/SysMenuDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/SysMenuRoleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/SysRoleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/SysRoleUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/SysUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/WebsiteDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/WebsiteLinkDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/WebsiteNavArticleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/WebsiteNavDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/MsgDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/MsgTemplateDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/MsgUserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/NavBarDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/SysDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/SysLogDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/SysMenuDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/SysMenuRoleDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/SysRoleDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/SysRoleUserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/SysUserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/WebsiteDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/WebsiteLinkDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/WebsiteNavArticleDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/WebsiteNavDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/MsgMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/MsgTemplateMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/MsgUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/NavBarMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/SysLogMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/SysMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/SysMenuMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/SysMenuRoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/SysRoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/SysRoleUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/SysUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/WebsiteLinkMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/WebsiteMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/WebsiteNavArticleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/WebsiteNavMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/Msg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/MsgExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/MsgExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/MsgExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/MsgExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/MsgTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/MsgTemplateExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/MsgTemplateExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/MsgTemplateExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/MsgTemplateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/MsgUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/MsgUserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/MsgUserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/MsgUserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/MsgUserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/NavBar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/NavBarExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/NavBarExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/NavBarExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/NavBarExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/Sys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysLogExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysLogExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysLogExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysLogExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysMenuExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysMenuExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysMenuExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysMenuExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysMenuRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysMenuRoleExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysMenuRoleExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysMenuRoleExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysMenuRoleExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysRoleExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysRoleExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysRoleExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysRoleExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysRoleUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysRoleUserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysRoleUserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysRoleUserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysRoleUserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysUserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysUserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysUserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/SysUserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/Website.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteLink.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteLinkExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteLinkExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteLinkExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteLinkExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteNav.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteNavArticle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteNavArticleExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteNavArticleExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteNavArticleExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteNavArticleExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteNavExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteNavExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteNavExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/dao/impl/mapper/entity/WebsiteNavExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/FeignMsgController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/FeignMsgTemplateController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/FeignMsgUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/FeignNavBarController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/FeignSysController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/FeignSysLogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/FeignSysMenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/FeignSysMenuRoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/FeignSysRoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/FeignSysRoleUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/FeignSysUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/FeignWebsiteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/FeignWebsiteLinkController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/FeignWebsiteNavArticleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/FeignWebsiteNavController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignMsgBiz$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignMsgBiz$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignMsgBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignMsgTemplateBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignMsgUserBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignNavBarBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignSysBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignSysLogBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignSysMenuBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignSysMenuRoleBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignSysRoleBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignSysRoleUserBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignSysUserBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignWebsiteBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignWebsiteLinkBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignWebsiteNavArticleBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/feign/biz/FeignWebsiteNavBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/ApiNavBarController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/ApiSysLogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/ApiSysMenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/ApiSysMenuRoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/ApiSysRoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/ApiSysRoleUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/ApiSysUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/ApiWebsiteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/ApiWebsiteLinkController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/ApiWebsiteNavArticleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/ApiWebsiteNavController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/biz/ApiMsgBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/biz/ApiMsgTemplateBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/biz/ApiMsgUserBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/biz/ApiNavBarBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/biz/ApiSysBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/biz/ApiSysLogBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/biz/ApiSysMenuBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/biz/ApiSysMenuRoleBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/biz/ApiSysRoleBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/biz/ApiSysRoleUserBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/biz/ApiSysUserBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/biz/ApiWebsiteBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/biz/ApiWebsiteLinkBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/biz/ApiWebsiteNavArticleBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/biz/ApiWebsiteNavBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/bo/NavBarBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/bo/SysBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/bo/SysEnumBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/bo/SysLogBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/bo/SysMenuBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/bo/SysMenuRoleBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/bo/SysRoleBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/bo/SysRoleUserBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/bo/SysUserBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/bo/WebsiteBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/bo/WebsiteLinkBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/bo/WebsiteNavArticleBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/bo/WebsiteNavBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/dto/NavBarDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/dto/NavBarListDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/dto/SysDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/dto/SysLogDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/dto/SysMenuDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/dto/SysMenuRoleDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/dto/SysRoleDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/dto/SysRoleUserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/dto/SysUserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/dto/WebsiteDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/dto/WebsiteLinkDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/dto/WebsiteLinkListDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/dto/WebsiteNavArticleDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/dto/WebsiteNavDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/api/dto/WebsiteNavListDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/auth/AuthApiMsg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/auth/AuthApiMsgUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/auth/biz/AuthApiMsgBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/auth/biz/AuthApiMsgUserBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/auth/bo/MsgReadBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/auth/bo/MsgUserBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/auth/bo/MsgViewBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/auth/dto/MsgDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/auth/dto/MsgReadDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/auth/dto/MsgUserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiMsgController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiMsgTemplateController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiMsgUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiNavBarController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiSysController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiSysEnumController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiSysLogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiSysMenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiSysMenuRoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiSysRoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiSysRoleUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiSysUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiWebsiteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiWebsiteLinkController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiWebsiteNavArticleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/PcApiWebsiteNavController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiMsgBiz$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiMsgBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiMsgTemplateBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiMsgUserBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiNavBarBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiSysBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiSysLogBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiSysMenuBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiSysMenuRoleBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiSysRoleBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiSysRoleUserBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiSysUserBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiWebsiteBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiWebsiteLinkBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiWebsiteNavArticleBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/biz/PcApiWebsiteNavBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/MsgDeleteREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/MsgPageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/MsgPushREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/MsgSaveREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/MsgTemplateDeleteREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/MsgTemplatePageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/MsgTemplateSaveREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/MsgTemplateUpdeteREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/MsgTemplateViewREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/MsgUpdateREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/MsgUserDeleteREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/MsgUserPageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/MsgUserViewREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/MsgViewREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/NavBarDeleteREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/NavBarPageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/NavBarSaveREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/NavBarUpdateREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/NavBarViewREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysLogPageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysMenuDeleteREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysMenuListREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysMenuRoleListREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysMenuRoleSaveREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysMenuSaveREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysMenuUpdateREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysMenuUserListREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysMenuViewREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysRoleDeleteREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysRolePageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysRoleSaveREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysRoleUpdateREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysRoleUserListREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysRoleUserSaveREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysRoleViewREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysUpdateRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysUserDeleteREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysUserPageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysUserSaveREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysUserUpdatePasswordREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysUserUpdateREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/SysUserViewREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/WebsiteLinkDeleteREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/WebsiteLinkPageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/WebsiteLinkSaveREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/WebsiteLinkUpdateREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/WebsiteLinkViewREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/WebsiteNavArticleSaveREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/WebsiteNavArticleUpdateREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/WebsiteNavArticleViewREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/WebsiteNavDeleteREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/WebsiteNavPageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/WebsiteNavSaveREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/WebsiteNavUpdateREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/WebsiteNavViewREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/req/WebsiteUpdateREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/MsgPageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/MsgTemplatePageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/MsgTemplateViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/MsgUserPageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/MsgUserViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/MsgViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/NavBarPageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/NavBarViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/SysLogPageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/SysMenuListRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/SysMenuRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/SysMenuRoleListRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/SysMenuRoleRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/SysMenuUserListRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/SysMenuUserRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/SysMenuViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/SysRolePageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/SysRoleUserListRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/SysRoleUserRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/SysRoleViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/SysUserPageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/SysUserViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/SysViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/WebsiteLinkPageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/WebsiteLinkViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/WebsiteNavArticleViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/WebsiteNavPageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/WebsiteNavViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/com/roncoo/education/system/service/pc/resq/WebsiteViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/mybatis/MsgMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/mybatis/MsgTemplateMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/mybatis/MsgUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/mybatis/NavBarMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/mybatis/SysLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/mybatis/SysMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/mybatis/SysMenuMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/mybatis/SysMenuRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/mybatis/SysRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/mybatis/SysRoleUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/mybatis/SysUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/mybatis/WebsiteLinkMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/mybatis/WebsiteMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/mybatis/WebsiteNavArticleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/mybatis/WebsiteNavMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/system-service.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-feign/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-feign/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-feign/target/roncoo-education-user-feign-10.0.0-RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/META-INF/build-info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/UserServiceApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/common/ReportExcelUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/LecturerAuditDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/LecturerDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/LecturerExtDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/LecturerProfitDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/PlatformDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/RegionDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/SendSmsLogDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/UserExtDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/UserLogLoginDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/UserLogModifiedDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/LecturerAuditDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/LecturerDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/LecturerExtDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/LecturerProfitDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/PlatformDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/RegionDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/SendSmsLogDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/UserExtDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/UserLogLoginDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/UserLogModifiedDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/LecturerAuditMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/LecturerExtMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/LecturerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/LecturerProfitMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/PlatformMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/RegionMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/SendSmsLogMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/UserExtMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/UserLogLoginMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/UserLogModifiedMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/Lecturer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerAudit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerAuditExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerAuditExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerAuditExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerAuditExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerExt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerExtExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerExtExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerExtExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerExtExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerProfit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerProfitExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerProfitExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerProfitExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/LecturerProfitExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/Platform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/PlatformExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/PlatformExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/PlatformExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/PlatformExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/Region.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/RegionExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/RegionExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/RegionExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/RegionExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/SendSmsLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/SendSmsLogExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/SendSmsLogExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/SendSmsLogExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/SendSmsLogExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserExt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserExtExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserExtExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserExtExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserExtExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserLogLogin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserLogLoginExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserLogLoginExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserLogLoginExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserLogLoginExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserLogModified.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserLogModifiedExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserLogModifiedExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserLogModifiedExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/dao/impl/mapper/entity/UserLogModifiedExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/FeignLecturerAuditController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/FeignLecturerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/FeignLecturerExtController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/FeignLecturerProfitController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/FeignPlatformController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/FeignRegionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/FeignSendSmsLogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/FeignUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/FeignUserExtController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/FeignUserLogLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/FeignUserLogModifiedController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/biz/FeignLecturerAuditBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/biz/FeignLecturerBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/biz/FeignLecturerExtBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/biz/FeignLecturerProfitBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/biz/FeignPlatformBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/biz/FeignRegionBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/biz/FeignSendSmsLogBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/biz/FeignUserBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/biz/FeignUserExtBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/biz/FeignUserLogLoginBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/feign/biz/FeignUserLogModifiedBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/ApiRegionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/ApiUserInfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/biz/ApiRegionBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/biz/ApiUserInfoBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/bo/LecturerBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/bo/LecturerViewBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/bo/RegionBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/bo/UserAuthBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/bo/UserLoginCodeBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/bo/UserLoginPasswordBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/bo/UserRegionCityIdBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/bo/UserRegionLevelBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/bo/UserRegionProvinceBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/bo/UserRegisterBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/bo/UserSendCodeBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/dto/LecturerDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/dto/LecturerViewDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/dto/RegionDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/dto/RegionListDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/api/dto/UserLoginDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/AuthApiLecturerAuditController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/AuthApiLecturerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/AuthApiLecturerExtController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/AuthApiLecturerProfitController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/AuthApiUserExtController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/biz/AuthApiLecturerAuditBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/biz/AuthApiLecturerBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/biz/AuthApiLecturerExtBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/biz/AuthApiLecturerProfitBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/biz/AuthApiUserExtBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthLecturerAuditBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthLecturerAuditSaveBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthLecturerAuditViewBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthLecturerBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthLecturerExtBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthLecturerExtViewBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthLecturerProfitBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthLecturerProfitPageBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthLecturerProfitSaveBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthPlatformBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthUserBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthUserExtBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthUserExtBankBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthUserExtViewBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthUserLogLoginBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/AuthUserLogModifiedBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/bo/UserUpdateBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/dto/AuthLecturerAuditDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/dto/AuthLecturerAuditViewDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/dto/AuthLecturerDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/dto/AuthLecturerExtDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/dto/AuthLecturerExtViewDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/dto/AuthLecturerProfitDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/dto/AuthLecturerProfitPageDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/dto/AuthPlatformDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/dto/AuthUserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/auth/dto/AuthUserExtDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/PcApiLecturerAuditController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/PcApiLecturerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/PcApiLecturerProfitController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/PcApiPlatformController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/PcApiSendSmsLogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/PcApiUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/PcApiUserExtController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/PcApiUserLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/SendEmail$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/SendEmail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/biz/PcApiLecturerAuditBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/biz/PcApiLecturerBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/biz/PcApiLecturerExtBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/biz/PcApiLecturerProfitBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/biz/PcApiPlatformBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/biz/PcApiSendSmsLogBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/biz/PcApiUserBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/biz/PcApiUserExtBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/biz/PcApiUserLoginBiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/LecturerAuditAuditREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/LecturerAuditCheckMobileREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/LecturerAuditPageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/LecturerAuditSaveREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/LecturerAuditUpdateREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/LecturerAuditViewREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/LecturerPageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/LecturerProfitBatchREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/LecturerProfitPageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/LecturerProfitUpdateREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/LecturerUpdateREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/LecturerViewREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/PlatformDeleteREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/PlatformPageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/PlatformSaveREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/PlatformUpdateREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/PlatformViewREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/SendSmsLogPageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/SendSmsLogSendREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/UserExtPageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/UserExtUpdateREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/UserExtViewREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/UserLoginPasswordREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/req/UserPageREQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/resq/LecturerAuditPageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/resq/LecturerAuditViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/resq/LecturerExtViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/resq/LecturerPageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/resq/LecturerProfitPageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/resq/LecturerViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/resq/PlatformPageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/resq/PlatformViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/resq/SendSmsLogPageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/resq/UserExtPageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/resq/UserExtViewRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/resq/UserLoginRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/com/roncoo/education/user/service/pc/resq/UserPageRESQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/mybatis/LecturerAuditMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/mybatis/LecturerExtMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/mybatis/LecturerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/mybatis/LecturerProfitMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/mybatis/PlatformMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/mybatis/RegionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/mybatis/SendSmsLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/mybatis/UserExtMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/mybatis/UserLogLoginMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/mybatis/UserLogModifiedMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/mybatis/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/user-service.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/biz/ApiProgramSkillBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/biz/ApiProgramSkillBiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/bo/ProgramInfoPageBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/bo/ProgramInfoPageBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/mybatis/ProgramMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/mybatis/ProgramMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -684,9 +53,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Tag Library Descriptor" />
-        <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -718,23 +86,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/mia/Desktop/git test/AIRELMS-BackEnd",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "3fb17f984b7b7f94c834a43c6f8b5465",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;a3ac3d19f229b40d4677f7bbc9b46d55&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.CourseServiceApplication">
     <configuration name="CourseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="roncoo-education-course-service" />
@@ -862,8 +228,6 @@
       <workItem from="1679446376395" duration="1582000" />
       <workItem from="1679454231442" duration="606000" />
       <workItem from="1679459055586" duration="656000" />
-      <workItem from="1680386570023" duration="22690000" />
-      <workItem from="1680479237952" duration="316000" />
     </task>
     <servers />
   </component>
