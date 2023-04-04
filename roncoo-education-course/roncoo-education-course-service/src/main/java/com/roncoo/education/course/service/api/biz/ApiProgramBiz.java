@@ -111,8 +111,7 @@ public class ApiProgramBiz {
         programSkillFullListDTO.setList(list);
         return programSkillFullListDTO;
     }
-
-
+    
 
     public Result<OfficeHourListDTO> getOfficeHourByProgramId(ProgramInfoPageBO programInfoBO){
         Long programId = programInfoBO.getId();

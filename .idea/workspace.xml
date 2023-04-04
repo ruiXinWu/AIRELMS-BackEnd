@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbcb42f8-e8b1-4d5b-9098-b9a0e55473f7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/ApiProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/ApiProgramController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/biz/ApiProgramBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/biz/ApiProgramBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/ApiProgramController.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/ApiProgramController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/biz/ApiProgramBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/biz/ApiProgramBiz.class" afterDir="false" />
-    </list>
+    <list default="true" id="cbcb42f8-e8b1-4d5b-9098-b9a0e55473f7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +53,7 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd",
+    "last_opened_file_path": "/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/resources/mybatis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,7 +63,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
+  <component name="RunManager" selected="Spring Boot.CourseServiceApplication">
     <configuration name="CourseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="roncoo-education-course-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.roncoo.education.CourseServiceApplication" />
@@ -144,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CourseServiceApplication" />
+        <item itemvalue="Spring Boot.UserServiceApplication" />
         <item itemvalue="Spring Boot.SystemServiceApplication" />
         <item itemvalue="Spring Boot.ServerSbaApplication" />
         <item itemvalue="Spring Boot.ServerJobApplication" />
-        <item itemvalue="Spring Boot.CourseServiceApplication" />
-        <item itemvalue="Spring Boot.UserServiceApplication" />
       </list>
     </recent_temporary>
   </component>
