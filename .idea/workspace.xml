@@ -5,103 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbcb42f8-e8b1-4d5b-9098-b9a0e55473f7" name="Changes" comment="">
-<<<<<<< Updated upstream
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/CategoryProgramDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/CategoryProgramDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/CategoryProgramExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/ApiCategoryProgramController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/biz/ApiCategoryProgramBiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/bo/CategoryProgramBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/dto/CategoryListDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/dto/ProgramSkillFullDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/dto/ProgramSkillFullListDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/resources/mybatis/CategoryProgramMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/OfficeHourDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/ProgramProjectDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/OfficeHourDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/ProgramProjectDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/OfficeHourMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/ProgramProjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/OfficeHour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/ProgramProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/dto/ProjectListDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/resources/mybatis/ProgramProjectMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-gateway/target/app-gateway.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-gateway/target/app-gateway.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-gateway/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-gateway/target/classes/META-INF/build-info.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-gateway/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-gateway/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/app-job.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-job/target/app-job.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-job/target/classes/META-INF/build-info.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-job/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-job/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-sba/target/app-sba.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-sba/target/app-sba.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-sba/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-sba/target/classes/META-INF/build-info.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-app-sba/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-app-sba/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-core/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-common/roncoo-education-common-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-feign/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-feign/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-feign/target/roncoo-education-course-feign-10.0.0-RELEASE.jar" beforeDir="false" />
->>>>>>> Stashed changes
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/ProgramDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/ProgramDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/ProgramSkillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/ProgramSkillDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/ProgramDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/ProgramDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/ProgramSkillDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/ProgramSkillDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/ProgramMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/ProgramMapper.java" afterDir="false" />
-<<<<<<< Updated upstream
-=======
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/Program.java" afterDir="false" />
->>>>>>> Stashed changes
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/Skill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/ApiProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/ApiProgramController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/ApiProgramSkillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/ApiProgramSkillController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/biz/ApiProgramBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/biz/ApiProgramBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/biz/ApiProgramSkillBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/biz/ApiProgramSkillBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/bo/ProgramInfoPageBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/api/bo/ProgramInfoPageBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/resources/mybatis/ProgramMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/resources/mybatis/ProgramMapper.xml" afterDir="false" />
-<<<<<<< Updated upstream
-=======
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/META-INF/build-info.properties" beforeDir="false" />
->>>>>>> Stashed changes
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/ProgramDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/ProgramDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/ProgramSkillDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/ProgramSkillDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/ProgramDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/ProgramDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/ProgramSkillDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/ProgramSkillDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/ProgramMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/ProgramMapper.class" afterDir="false" />
-<<<<<<< Updated upstream
-=======
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/Program.class" afterDir="false" />
->>>>>>> Stashed changes
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/ProgramSkillExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/Skill.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/dao/impl/mapper/entity/Skill.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/ApiProgramController.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/ApiProgramController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/ApiProgramSkillController.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/ApiProgramSkillController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/biz/ApiProgramBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/biz/ApiProgramBiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/biz/ApiProgramSkillBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/biz/ApiProgramSkillBiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/bo/ProgramInfoPageBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/com/roncoo/education/course/service/api/bo/ProgramInfoPageBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/mybatis/ProgramMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/classes/mybatis/ProgramMapper.xml" afterDir="false" />
-<<<<<<< Updated upstream
-=======
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/course-service.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-feign/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-feign/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-feign/target/roncoo-education-system-feign-10.0.0-RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-feign/target/roncoo-education-system-feign-10.0.0-RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/classes/META-INF/build-info.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/system-service.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-system/roncoo-education-system-service/target/system-service.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-feign/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-feign/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-feign/target/roncoo-education-user-feign-10.0.0-RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-feign/target/roncoo-education-user-feign-10.0.0-RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/classes/META-INF/build-info.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/user-service.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/user-service.jar.original" afterDir="false" />
->>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,10 +20,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-<<<<<<< Updated upstream
-=======
-        <option value="FxmlFile" />
->>>>>>> Stashed changes
         <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
@@ -148,22 +52,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;a3ac3d19f229b40d4677f7bbc9b46d55&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "3d795c47acd58936c74b18888da509d4",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Spring Boot.CourseServiceApplication">
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
     <configuration name="CourseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="roncoo-education-course-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.roncoo.education.CourseServiceApplication" />
@@ -238,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CourseServiceApplication" />
-        <item itemvalue="Spring Boot.UserServiceApplication" />
         <item itemvalue="Spring Boot.SystemServiceApplication" />
         <item itemvalue="Spring Boot.ServerSbaApplication" />
         <item itemvalue="Spring Boot.ServerJobApplication" />
+        <item itemvalue="Spring Boot.CourseServiceApplication" />
+        <item itemvalue="Spring Boot.UserServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -284,20 +190,13 @@
       <workItem from="1677634756344" duration="6599000" />
       <workItem from="1678057956320" duration="4687000" />
       <workItem from="1678063909429" duration="6764000" />
-<<<<<<< Updated upstream
       <workItem from="1678252228905" duration="8735000" />
       <workItem from="1679432519067" duration="5720000" />
       <workItem from="1679441978847" duration="2883000" />
       <workItem from="1679446376395" duration="1582000" />
       <workItem from="1679454231442" duration="606000" />
       <workItem from="1679459055586" duration="656000" />
-=======
-      <workItem from="1679976141334" duration="1259000" />
-      <workItem from="1680390319912" duration="304000" />
-      <workItem from="1680459081266" duration="1123000" />
-      <workItem from="1680560441904" duration="510000" />
-      <workItem from="1680575824920" duration="5366000" />
->>>>>>> Stashed changes
+      <workItem from="1680455240192" duration="21045000" />
     </task>
     <servers />
   </component>

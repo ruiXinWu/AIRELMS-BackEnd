@@ -35,9 +35,6 @@ public class ApiProgramBiz {
 
 
 
-    @Autowired
-    private ApiProgramSkillBiz apiProgramSkillBiz;
-
 
     public ApiProgramBiz() {
     }
