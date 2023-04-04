@@ -84,9 +84,6 @@ public class ApiProgramSkillController extends BaseController {
     }
 
 
-<<<<<<< Updated upstream
-=======
 
 
->>>>>>> Stashed changes
 }
