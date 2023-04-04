@@ -11,10 +11,7 @@ import com.roncoo.education.course.service.api.dto.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import com.roncoo.education.course.service.api.biz.ApiProgramSkillBiz;
-<<<<<<< Updated upstream
-=======
 import com.roncoo.education.course.dao.OfficeHourDao;
->>>>>>> Stashed changes
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,10 +28,8 @@ public class ApiProgramBiz {
     private ProgramDao programDao;
 
     @Autowired
-<<<<<<< Updated upstream
     private ApiProgramSkillBiz apiProgramSkillBiz;
 
-=======
     private OfficeHourDao officeHourDao;
 
 
@@ -47,7 +42,6 @@ public class ApiProgramBiz {
     public ApiProgramBiz() {
     }
 
->>>>>>> Stashed changes
     /**
      * 项目信息列表接口
      *
@@ -121,8 +115,7 @@ public class ApiProgramBiz {
         return programSkillFullListDTO;
     }
 
-<<<<<<< Updated upstream
-=======
+
     public Result<OfficeHourListDTO> getOfficeHourByProgramId(ProgramInfoPageBO programInfoBO){
         Long programId = programInfoBO.getId();
         List<OfficeHour> officeHour = officeHourDao.searchByProgramId(programId);
@@ -141,7 +134,24 @@ public class ApiProgramBiz {
 
 
 
->>>>>>> Stashed changes
+
+    public Result<ProgramSkillFullListDTO> searchFullByProgramName(ProgramInfoPageBO programInfoBO){
+        String programName = programInfoBO.getProgramName();
+        List<Program> programList = programDao.searchByProgramNameOrDescription(programName);
+
+        List<ProgramSkillFullDTO> list = new ArrayList<>();
+        for(Program program : programList){
+            List<Skill> skillList= apiProgramSkillBiz.getByProgramName(program.getProgramName());
+            ProgramSkillFullDTO programSkillFullDTO = new ProgramSkillFullDTO();
+            programSkillFullDTO.setProgram(program);
+            programSkillFullDTO.setSkillDTO(skillList);
+            list.add(programSkillFullDTO);
+        }
+        ProgramSkillFullListDTO programSkillFullListDTO = new ProgramSkillFullListDTO();
+        programSkillFullListDTO.setList(list);
+        return Result.success(programSkillFullListDTO);
+    }
+
 
 }
 

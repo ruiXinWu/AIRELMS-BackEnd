@@ -69,5 +69,9 @@ public class ApiProgramController extends BaseController {
     @RequestMapping(value = "/getofficehourbyprogramid", method = RequestMethod.POST)
     public Result<OfficeHourListDTO> getOfficeHourByProgramId(@RequestBody ProgramInfoPageBO programInfoPageBO) {
         return biz.getOfficeHourByProgramId(programInfoPageBO);
+    @ApiOperation(value = "full项目搜索接口", notes = "根据项目名搜索项目并返回skill list field")
+    @RequestMapping(value = "/searchfullbyname", method = RequestMethod.POST)
+    public Result<ProgramSkillFullListDTO> searchFullByProgramName(@RequestBody ProgramInfoPageBO programInfoPageBO) {
+        return biz.searchFullByProgramName(programInfoPageBO);
     }
 }

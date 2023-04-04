@@ -1,5 +1,6 @@
 package com.roncoo.education.course.dao.impl.mapper;
 
+import com.roncoo.education.course.dao.impl.mapper.entity.Program;
 import com.roncoo.education.course.dao.impl.mapper.entity.ProgramSkill;
 import com.roncoo.education.course.dao.impl.mapper.entity.ProgramSkillExample;
 import org.apache.ibatis.annotations.Mapper;
@@ -27,5 +28,6 @@ public interface ProgramSkillMapper {
     int updateByPrimaryKeySelective(ProgramSkillExample record);
 
     List<ProgramSkill> listDistinctSkill();
+
 }
 

@@ -29,4 +29,6 @@ public interface ProgramMapper {
     List<Program> searchByNameOrDescription(String description);
 
     List<Program> listAll();
+
+    List<Program> searchBySkillId(Long skillId);
 }
