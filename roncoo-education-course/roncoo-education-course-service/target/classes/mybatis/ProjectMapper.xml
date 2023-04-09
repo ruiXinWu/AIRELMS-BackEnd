@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.roncoo.education.course.dao.impl.mapper.ProjectMapper">
+    <resultMap id="BaseResultMap" type="com.roncoo.education.course.dao.impl.mapper.entity.Project">
+        <id column="project_id" property="projectId" jdbcType="BIGINT"/>
+        <result column="project_name" property="projectName" jdbcType="VARCHAR"/>
+        <result column="project_description" property="projectDescription" jdbcType="VARCHAR"/>
+        <result column="project_url" property="projectUrl" jdbcType="VARCHAR"/>
+        <result column="project_picture" property="projectPicture" jdbcType="VARCHAR"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        project_id,project_name,project_description, project_url,project_picture
+    </sql>
+
+    <select id="selectByProjectId" resultMap="BaseResultMap" parameterType="java.lang.Long">
+        select
+        <include refid="Base_Column_List"/>
+        from project
+        where project_id = #{project_id,jdbcType=BIGINT}
+    </select>
+
+
+</mapper>

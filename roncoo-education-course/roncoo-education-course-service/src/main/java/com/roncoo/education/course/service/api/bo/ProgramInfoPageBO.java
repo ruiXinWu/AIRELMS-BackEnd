@@ -32,7 +32,7 @@ public class ProgramInfoPageBO implements Serializable {
     /**
      * 课程ID
      */
-    private long id;
+    private Long id;
 
 
     /**
@@ -49,5 +49,13 @@ public class ProgramInfoPageBO implements Serializable {
 
     public String getSkillName() {
         return skillName;
+    }
+
+    public Long getSkillId() {
+        return skillId;
+    }
+
+    public Long getId() {
+        return id;
     }
 }
