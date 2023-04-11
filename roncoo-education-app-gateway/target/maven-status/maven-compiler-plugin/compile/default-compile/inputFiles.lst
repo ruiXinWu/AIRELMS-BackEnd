@@ -1,4 +1,4 @@
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-app-gateway/src/main/java/com/roncoo/education/ServerGatewayApplication.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-app-gateway/src/main/java/com/roncoo/education/app/gateway/IndexController.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-app-gateway/src/main/java/com/roncoo/education/app/gateway/filter/EduGlobalFilter.java
-/Users/mia/Desktop/git test/AIRELMS-BackEnd/roncoo-education-app-gateway/src/main/java/com/roncoo/education/app/gateway/GlobalErrorAttributes.java
+/Users/mia/Desktop/backend/AIRELMS-BackEnd/roncoo-education-app-gateway/src/main/java/com/roncoo/education/app/gateway/IndexController.java
+/Users/mia/Desktop/backend/AIRELMS-BackEnd/roncoo-education-app-gateway/src/main/java/com/roncoo/education/app/gateway/GlobalErrorAttributes.java
+/Users/mia/Desktop/backend/AIRELMS-BackEnd/roncoo-education-app-gateway/src/main/java/com/roncoo/education/ServerGatewayApplication.java
+/Users/mia/Desktop/backend/AIRELMS-BackEnd/roncoo-education-app-gateway/src/main/java/com/roncoo/education/app/gateway/filter/EduGlobalFilter.java

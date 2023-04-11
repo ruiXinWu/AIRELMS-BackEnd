@@ -13,13 +13,27 @@ import java.io.Serializable;
 public class OfficeHourDTO implements Serializable {
     private static final long serialVersionUID = 1L;
 
-    @ApiModelProperty(value = "office hour ID")
+    @ApiModelProperty(value = "id")
     @JsonSerialize(using = ToStringSerializer.class)
     private Long id;
 
-    @ApiModelProperty(value = "连接")
-    private String url;
+    @ApiModelProperty(value = "教授id")
+    private Long lecturerId;
 
     @ApiModelProperty(value = "项目ID")
     private Long programId;
+
+    @ApiModelProperty(value = "连接")
+    private String officeHourUrl;
+
+    @ApiModelProperty(value = "logo连接")
+    private String lectureLogo;
+
+    @ApiModelProperty(value = "课程名称")
+    private String lectureName;
+
+    @ApiModelProperty(value = "课程介绍")
+    private String lectureIntroduction;
+
+
 }

@@ -30,6 +30,7 @@ public class ApiProgramBiz {
     @Autowired
     private ApiProgramSkillBiz apiProgramSkillBiz;
 
+    @Autowired
     private OfficeHourDao officeHourDao;
 
 
@@ -115,6 +116,7 @@ public class ApiProgramBiz {
 
     public Result<OfficeHourListDTO> getOfficeHourByProgramId(ProgramInfoPageBO programInfoBO){
         Long programId = programInfoBO.getId();
+        System.out.println("biz get programId:  "+programId);
         List<OfficeHour> officeHour = officeHourDao.searchByProgramId(programId);
         List<OfficeHourDTO> officeHourDTOList = new ArrayList();
         OfficeHourListDTO officeHourListDTO = new OfficeHourListDTO();
