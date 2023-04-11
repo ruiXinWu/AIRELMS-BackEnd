@@ -37,7 +37,7 @@ import java.util.regex.Pattern;
  * @author wujing
  */
 @Component
-public class iApiUserInfoBiz extends BaseBiz {
+public class ApiUserInfoBiz extends BaseBiz {
 
     @Autowired
     private IFeignSys bossSys;
