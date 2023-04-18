@@ -53,7 +53,7 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/resources/mybatis",
+    "last_opened_file_path": "/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/resources/mybatis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +63,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/resources/mybatis" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.CourseServiceApplication">
     <configuration name="CourseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="roncoo-education-course-service" />
@@ -191,6 +196,7 @@
       <workItem from="1679454231442" duration="606000" />
       <workItem from="1679459055586" duration="656000" />
       <workItem from="1680455240192" duration="21045000" />
+      <workItem from="1681797168500" duration="794000" />
     </task>
     <servers />
   </component>
