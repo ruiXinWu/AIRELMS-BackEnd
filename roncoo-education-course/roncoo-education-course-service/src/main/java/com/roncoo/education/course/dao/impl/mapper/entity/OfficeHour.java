@@ -6,8 +6,6 @@ public class OfficeHour implements Serializable {
     private Long id;
     
     private String url;
-    
-    private long programId;
 
     private Long lecturerId;
 
