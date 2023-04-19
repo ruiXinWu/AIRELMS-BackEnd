@@ -1,7 +1,10 @@
 package com.roncoo.education.user.dao.impl.mapper;
 
-import java.util.List;
+import com.roncoo.education.user.dao.impl.mapper.entity.UserProgram;
+import org.apache.ibatis.annotations.Mapper;
 
+import java.util.List;
+@Mapper
 public interface UserProgramMapper {
-    List<Long> selectUserProgramByUserId(Long id);
+    List<UserProgram> selectUserProgramByUserId(Long id);
 }

@@ -83,7 +83,9 @@ public class ApiProgramBiz {
     }
 
     public ProgramDTO getProgramById(Long id){
+        System.out.println("forth");
         Program program = programDao.getById(id);
+        System.out.println("sixth");
         ProgramDTO programDTO = BeanUtil.copyProperties(program, ProgramDTO.class);
         return programDTO;
     }

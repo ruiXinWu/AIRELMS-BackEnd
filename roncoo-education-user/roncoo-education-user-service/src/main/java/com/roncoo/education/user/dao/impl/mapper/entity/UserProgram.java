@@ -30,4 +30,13 @@ public class UserProgram implements Serializable {
     public Long getProgramId() {
         return programId;
     }
+
+    @Override
+    public String toString() {
+        return "UserProgram{" +
+                "id=" + id +
+                ", userId=" + userId +
+                ", programId=" + programId +
+                '}';
+    }
 }

@@ -19,11 +19,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "/user/api/userprogram")
 public class ApiUserProgramController extends BaseController{
-    private ApiUserProgramBiz biz;
+    @Autowired
+    private ApiUserProgramBiz apiUserProgramBiz;
 
     @ApiOperation(value = "用户信息接口", notes = "根据用户ID得到用户拥有的项目")
     @RequestMapping(value = "/getuserprogrambyuserid", method = RequestMethod.POST)
     public Result<ProgramListDTO> getUserProgramByUserId(@RequestBody UserInfoBO userInfoBO){
-        return biz.getByUserId(userInfoBO);
+        System.out.println("Begin");
+        System.out.println(userInfoBO.getUserId());
+        return apiUserProgramBiz.getByUserId(userInfoBO.getUserId());
     }
 }

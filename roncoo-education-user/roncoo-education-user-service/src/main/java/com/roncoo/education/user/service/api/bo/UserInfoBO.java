@@ -11,6 +11,14 @@ import java.io.Serializable;
 public class UserInfoBO implements Serializable {
     private static final long serialVersionUID = 1L;
 
-    @ApiModelProperty(value = "userId", required = true)
+    private Long id;
     private Long userId;
+
+    public Long getId() {
+        return id;
+    }
+
+    public Long getUserId(){
+        return userId;
+    }
 }

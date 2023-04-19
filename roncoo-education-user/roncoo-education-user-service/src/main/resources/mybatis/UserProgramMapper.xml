@@ -14,6 +14,6 @@
         select
         <include refid="Base_Column_List"/>
         from user_program
-        where user_id = #{user_id,jdbcType=BIGINT}
+        where user_id = #{userId,jdbcType=BIGINT}
     </select>
 </mapper>
