@@ -6,6 +6,7 @@ com/roncoo/education/course/feign/interfaces/qo/CourseChapterAuditQO.class
 com/roncoo/education/course/feign/interfaces/qo/OrderPayQO.class
 com/roncoo/education/course/feign/interfaces/qo/CourseChapterQO.class
 com/roncoo/education/course/feign/interfaces/vo/CourseChapterPeriodVO.class
+com/roncoo/education/course/feign/interfaces/IFeignProgram.class
 com/roncoo/education/course/feign/interfaces/qo/DicQO.class
 com/roncoo/education/course/feign/interfaces/IFeignAdv.class
 com/roncoo/education/course/feign/interfaces/vo/CourseUserStudyVO.class
@@ -57,6 +58,7 @@ com/roncoo/education/course/feign/interfaces/qo/CourseChapterPeriodAuditQO.class
 com/roncoo/education/course/feign/interfaces/IFeignCourseUserStudy.class
 com/roncoo/education/course/feign/interfaces/IFeignZone.class
 com/roncoo/education/course/feign/interfaces/qo/ZoneCourseQO.class
+com/roncoo/education/course/feign/interfaces/vo/ProgramVO.class
 com/roncoo/education/course/feign/interfaces/vo/OrderEchartsVO.class
 com/roncoo/education/course/feign/interfaces/IFeignCourseChapterAudit.class
 com/roncoo/education/course/feign/interfaces/vo/CourseChapterVO.class

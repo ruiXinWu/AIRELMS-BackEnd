@@ -41,8 +41,10 @@
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-feign/src/main/java/com/roncoo/education/course/feign/interfaces/vo/CourseChapterVO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-feign/src/main/java/com/roncoo/education/course/feign/interfaces/IFeignOrderPay.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-feign/src/main/java/com/roncoo/education/course/feign/interfaces/vo/ZoneVO.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-feign/src/main/java/com/roncoo/education/course/feign/interfaces/vo/ProgramVO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-feign/src/main/java/com/roncoo/education/course/feign/interfaces/IFeignCourseUserStudy.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-feign/src/main/java/com/roncoo/education/course/feign/interfaces/vo/OrderEchartsVO.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-feign/src/main/java/com/roncoo/education/course/feign/interfaces/IFeignProgram.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-feign/src/main/java/com/roncoo/education/course/feign/interfaces/qo/CourseChapterQO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-feign/src/main/java/com/roncoo/education/course/feign/interfaces/vo/CourseIntroduceAuditVO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-feign/src/main/java/com/roncoo/education/course/feign/interfaces/IFeignCourseChapterAudit.java
