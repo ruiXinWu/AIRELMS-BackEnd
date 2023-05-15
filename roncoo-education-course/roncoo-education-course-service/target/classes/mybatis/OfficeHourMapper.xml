@@ -6,12 +6,12 @@
         <result column="lecturer_id" property="lecturerId" jdbcType="BIGINT"/>
         <result column="program_id" property="programId" jdbcType="BIGINT"/>
         <result column="office_hour_url" property="officeHourUrl" jdbcType="VARCHAR"/>
-        <result column="lecture_logo" property="lectureLogo" jdbcType="VARCHAR"/>
-        <result column="lecture_name" property="lectureName" jdbcType="VARCHAR"/>
-        <result column="lecture_introduction" property="lectureIntroduction" jdbcType="VARCHAR"/>
+        <result column="head_img_url" property="headImgUrl" jdbcType="VARCHAR"/>
+        <result column="lecturer_name" property="lecturerName" jdbcType="VARCHAR"/>
+        <result column="introduce" property="introduce" jdbcType="VARCHAR"/>
     </resultMap>
     <sql id="Base_Column_List">
-        id,lecturer_id,program_id,office_hour_url,lecture_logo,lecture_name,lecture_introduction
+        id,lecturer_id,program_id,office_hour_url,head_img_url,lecturer_name,introduce
     </sql>
     <select id="selectByProgramId" resultMap="BaseResultMap" parameterType="java.lang.Long">
         select

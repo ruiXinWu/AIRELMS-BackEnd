@@ -26,14 +26,14 @@ public class OfficeHourDTO implements Serializable {
     @ApiModelProperty(value = "连接")
     private String officeHourUrl;
 
-    @ApiModelProperty(value = "logo连接")
-    private String lectureLogo;
+    @ApiModelProperty(value = "教授头像")
+    private String headImgUrl;
 
-    @ApiModelProperty(value = "课程名称")
-    private String lectureName;
+    @ApiModelProperty(value = "讲师姓名")
+    private String lecturerName;
 
-    @ApiModelProperty(value = "课程介绍")
-    private String lectureIntroduction;
+    @ApiModelProperty(value = "教授介绍")
+    private String introduce;
 
 
 }
