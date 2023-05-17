@@ -59,11 +59,14 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "spring.configuration.checksum": "3d795c47acd58936c74b18888da509d4",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.CourseServiceApplication">
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
     <configuration name="CourseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="roncoo-education-course-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.roncoo.education.CourseServiceApplication" />
@@ -138,8 +141,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CourseServiceApplication" />
         <item itemvalue="Spring Boot.UserServiceApplication" />
+        <item itemvalue="Spring Boot.CourseServiceApplication" />
         <item itemvalue="Spring Boot.SystemServiceApplication" />
         <item itemvalue="Spring Boot.ServerSbaApplication" />
         <item itemvalue="Spring Boot.ServerJobApplication" />
