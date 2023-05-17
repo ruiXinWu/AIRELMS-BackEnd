@@ -3,16 +3,20 @@
 <mapper namespace="com.roncoo.education.course.dao.impl.mapper.OfficeHourMapper">
     <resultMap id="BaseResultMap" type="com.roncoo.education.course.dao.impl.mapper.entity.OfficeHour">
         <id column="id" property="id" jdbcType="BIGINT"/>
-        <result column="url" property="url" jdbcType="VARCHAR"/>
+        <result column="lecturer_id" property="lecturerId" jdbcType="BIGINT"/>
         <result column="program_id" property="programId" jdbcType="BIGINT"/>
+        <result column="office_hour_url" property="officeHourUrl" jdbcType="VARCHAR"/>
+        <result column="lecture_logo" property="lectureLogo" jdbcType="VARCHAR"/>
+        <result column="lecture_name" property="lectureName" jdbcType="VARCHAR"/>
+        <result column="lecture_introduction" property="lectureIntroduction" jdbcType="VARCHAR"/>
     </resultMap>
     <sql id="Base_Column_List">
-        id,url,program_id
+        id,lecturer_id,program_id,office_hour_url,lecture_logo,lecture_name,lecture_introduction
     </sql>
     <select id="selectByProgramId" resultMap="BaseResultMap" parameterType="java.lang.Long">
         select
         <include refid="Base_Column_List"/>
-        from office_hour
+        from LecturerProgram
         where program_id = #{program_id,jdbcType=BIGINT}
     </select>
 

@@ -30,6 +30,7 @@ public class ApiProgramBiz {
     @Autowired
     private ApiProgramSkillBiz apiProgramSkillBiz;
 
+    @Autowired
     private OfficeHourDao officeHourDao;
 
 
@@ -82,7 +83,9 @@ public class ApiProgramBiz {
     }
 
     public ProgramDTO getProgramById(Long id){
+        System.out.println("forth");
         Program program = programDao.getById(id);
+        System.out.println("sixth");
         ProgramDTO programDTO = BeanUtil.copyProperties(program, ProgramDTO.class);
         return programDTO;
     }
@@ -115,6 +118,7 @@ public class ApiProgramBiz {
 
     public Result<OfficeHourListDTO> getOfficeHourByProgramId(ProgramInfoPageBO programInfoBO){
         Long programId = programInfoBO.getId();
+        System.out.println("biz get programId:  "+programId);
         List<OfficeHour> officeHour = officeHourDao.searchByProgramId(programId);
         List<OfficeHourDTO> officeHourDTOList = new ArrayList();
         OfficeHourListDTO officeHourListDTO = new OfficeHourListDTO();
@@ -125,12 +129,6 @@ public class ApiProgramBiz {
         officeHourListDTO.setList(officeHourDTOList);
         return Result.success(officeHourListDTO);
     }
-
-
-
-
-
-
 
     public Result<ProgramSkillFullListDTO> searchFullByProgramName(ProgramInfoPageBO programInfoBO){
         String programName = programInfoBO.getProgramName();
@@ -148,7 +146,6 @@ public class ApiProgramBiz {
         programSkillFullListDTO.setList(list);
         return Result.success(programSkillFullListDTO);
     }
-
 
 }
 

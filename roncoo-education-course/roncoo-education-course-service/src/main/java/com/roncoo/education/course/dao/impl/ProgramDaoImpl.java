@@ -30,6 +30,8 @@ public class ProgramDaoImpl implements ProgramDao {
     }
 
     public Program getById(Long id) {
+        System.out.println("fifth");
+        System.out.println(id);
         return this.programMapper.selectByPrimaryKey(id);
     }
 

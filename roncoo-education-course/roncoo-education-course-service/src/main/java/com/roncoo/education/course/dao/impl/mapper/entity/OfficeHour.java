@@ -4,8 +4,20 @@ import java.io.Serializable;
 
 public class OfficeHour implements Serializable {
     private Long id;
+    
     private String url;
-    private long programId;
+
+    private Long lecturerId;
+
+    private Long programId;
+
+    private String officeHourUrl;
+
+    private String lectureLogo;
+
+    private String lectureName;
+
+    private String  lectureIntroduction;
 
     public Long getId() {
         return id;
@@ -23,22 +35,65 @@ public class OfficeHour implements Serializable {
         this.url = url;
     }
 
-    public long getProgramId() {
+
+    public Long getLecturerId() {
+        return lecturerId;
+    }
+
+    public void setLecturerId(Long lecturerId) {
+        this.lecturerId = lecturerId;
+    }
+
+    public Long getProgramId() {
         return programId;
     }
 
-    public void setProgramId(long programId) {
+    public void setProgramId(Long programId) {
         this.programId = programId;
+    }
+
+    public String getOfficeHourUrl() {
+        return officeHourUrl;
+    }
+
+    public void setOfficeHourUrl(String officeHourUrl) {
+        this.officeHourUrl = officeHourUrl;
+    }
+
+    public String getLectureLogo() {
+        return lectureLogo;
+    }
+
+    public void setLectureLogo(String lectureLogo) {
+        this.lectureLogo = lectureLogo;
+    }
+
+    public String getLectureName() {
+        return lectureName;
+    }
+
+    public void setLectureName(String lectureName) {
+        this.lectureName = lectureName;
+    }
+
+    public String getLectureIntroduction() {
+        return lectureIntroduction;
+    }
+
+    public void setLectureIntroduction(String lectureIntroduction) {
+        this.lectureIntroduction = lectureIntroduction;
     }
 
     @Override
     public String toString() {
         return "OfficeHour{" +
                 "id=" + id +
-                ", url='" + url + '\'' +
+                ", lecturerId=" + lecturerId +
                 ", programId=" + programId +
+                ", officeHourUrl='" + officeHourUrl + '\'' +
+                ", lectureLogo='" + lectureLogo + '\'' +
+                ", lectureName='" + lectureName + '\'' +
+                ", lectureIntroduction='" + lectureIntroduction + '\'' +
                 '}';
     }
-
-
 }
