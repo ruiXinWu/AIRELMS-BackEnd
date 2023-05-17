@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cbcb42f8-e8b1-4d5b-9098-b9a0e55473f7" name="Changes" comment="">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/CategoryProgramDao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/CategoryProgramDaoImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/CategoryProgramExample.java" afterDir="false" />
@@ -102,6 +103,20 @@
       <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/user-service.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/target/user-service.jar.original" afterDir="false" />
 >>>>>>> Stashed changes
+=======
+      <change afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/UserCourseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/UserCourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/entity/UserCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/entity/UserCourseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/ApiUserCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/biz/ApiUserCourseBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/bo/UserInfoBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/dto/CourseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/dto/CourseListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/resources/mybatis/UserCourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,15 +170,27 @@
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+<<<<<<< Updated upstream
+=======
+    &quot;last_opened_file_path&quot;: &quot;/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/resources/mybatis&quot;,
+>>>>>>> Stashed changes
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+<<<<<<< Updated upstream
+=======
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+>>>>>>> Stashed changes
     &quot;spring.configuration.checksum&quot;: &quot;a3ac3d19f229b40d4677f7bbc9b46d55&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Spring Boot.CourseServiceApplication">
+=======
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
+>>>>>>> Stashed changes
     <configuration name="CourseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="roncoo-education-course-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.roncoo.education.CourseServiceApplication" />
@@ -238,8 +265,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CourseServiceApplication" />
         <item itemvalue="Spring Boot.UserServiceApplication" />
+        <item itemvalue="Spring Boot.CourseServiceApplication" />
         <item itemvalue="Spring Boot.SystemServiceApplication" />
         <item itemvalue="Spring Boot.ServerSbaApplication" />
         <item itemvalue="Spring Boot.ServerJobApplication" />
@@ -291,12 +318,20 @@
       <workItem from="1679446376395" duration="1582000" />
       <workItem from="1679454231442" duration="606000" />
       <workItem from="1679459055586" duration="656000" />
+<<<<<<< Updated upstream
 =======
       <workItem from="1679976141334" duration="1259000" />
       <workItem from="1680390319912" duration="304000" />
       <workItem from="1680459081266" duration="1123000" />
       <workItem from="1680560441904" duration="510000" />
       <workItem from="1680575824920" duration="5366000" />
+>>>>>>> Stashed changes
+=======
+      <workItem from="1680455240192" duration="21045000" />
+      <workItem from="1681246549555" duration="3593000" />
+      <workItem from="1681876079626" duration="1570000" />
+      <workItem from="1682043292062" duration="8934000" />
+      <workItem from="1684291737666" duration="1608000" />
 >>>>>>> Stashed changes
     </task>
     <servers />
