@@ -1,11 +1,21 @@
 package com.roncoo.education.user.dao.impl.mapper.entity;
 
 import java.io.Serializable;
+import java.util.Date;
 
 public class UserProgram implements Serializable {
     private Long id;
     private Long userId;
     private Long programId;
+    private Date sliceDate;
+
+    public Date getSliceDate() {
+        return sliceDate;
+    }
+
+    public void setSliceDate(Date sliceDate) {
+        this.sliceDate = sliceDate;
+    }
 
     public void setUserId(Long userId) {
         this.userId = userId;
@@ -37,6 +47,7 @@ public class UserProgram implements Serializable {
                 "id=" + id +
                 ", userId=" + userId +
                 ", programId=" + programId +
+                ", sliceDate=" + sliceDate +
                 '}';
     }
 }

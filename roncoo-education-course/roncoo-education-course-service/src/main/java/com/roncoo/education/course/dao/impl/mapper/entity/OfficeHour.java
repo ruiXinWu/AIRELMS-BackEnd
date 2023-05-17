@@ -4,8 +4,6 @@ import java.io.Serializable;
 
 public class OfficeHour implements Serializable {
     private Long id;
-    
-    private String url;
 
     private Long lecturerId;
 
@@ -13,11 +11,12 @@ public class OfficeHour implements Serializable {
 
     private String officeHourUrl;
 
-    private String lectureLogo;
+    private String headImgUrl;
 
-    private String lectureName;
+    private String lecturerName;
 
-    private String  lectureIntroduction;
+    private String  introduce;
+
 
     public Long getId() {
         return id;
@@ -26,15 +25,6 @@ public class OfficeHour implements Serializable {
     public void setId(Long id) {
         this.id = id;
     }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
 
     public Long getLecturerId() {
         return lecturerId;
@@ -60,28 +50,28 @@ public class OfficeHour implements Serializable {
         this.officeHourUrl = officeHourUrl;
     }
 
-    public String getLectureLogo() {
-        return lectureLogo;
+    public String getHeadImgUrl() {
+        return headImgUrl;
     }
 
-    public void setLectureLogo(String lectureLogo) {
-        this.lectureLogo = lectureLogo;
+    public void setHeadImgUrl(String headImgUrl) {
+        this.headImgUrl = headImgUrl;
     }
 
-    public String getLectureName() {
-        return lectureName;
+    public String getLecturerName() {
+        return lecturerName;
     }
 
-    public void setLectureName(String lectureName) {
-        this.lectureName = lectureName;
+    public void setLecturerName(String lecturerName) {
+        this.lecturerName = lecturerName;
     }
 
-    public String getLectureIntroduction() {
-        return lectureIntroduction;
+    public String getIntroduce() {
+        return introduce;
     }
 
-    public void setLectureIntroduction(String lectureIntroduction) {
-        this.lectureIntroduction = lectureIntroduction;
+    public void setIntroduce(String introduce) {
+        this.introduce = introduce;
     }
 
     @Override
@@ -91,9 +81,9 @@ public class OfficeHour implements Serializable {
                 ", lecturerId=" + lecturerId +
                 ", programId=" + programId +
                 ", officeHourUrl='" + officeHourUrl + '\'' +
-                ", lectureLogo='" + lectureLogo + '\'' +
-                ", lectureName='" + lectureName + '\'' +
-                ", lectureIntroduction='" + lectureIntroduction + '\'' +
+                ", headImgUrl='" + headImgUrl + '\'' +
+                ", lecturerName='" + lecturerName + '\'' +
+                ", introduce='" + introduce + '\'' +
                 '}';
     }
 }

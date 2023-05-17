@@ -10,8 +10,11 @@ import com.roncoo.education.course.feign.interfaces.IFeignProgram;
 //import com.roncoo.education.course.service.api.dto.*;
 
 import com.roncoo.education.user.dao.UserProgramDao;
+import com.roncoo.education.user.dao.impl.mapper.entity.UserProgram;
 import com.roncoo.education.user.service.api.bo.UserInfoBO;
 import com.roncoo.education.user.service.api.dto.ProgramDTO;
+import com.roncoo.education.user.service.api.dto.ProgramDateDTO;
+import com.roncoo.education.user.service.api.dto.ProgramDateListDTO;
 import com.roncoo.education.user.service.api.dto.ProgramListDTO;
 import io.micrometer.core.instrument.binder.BaseUnits;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,5 +51,17 @@ public class ApiUserProgramBiz extends BaseBiz {
         }
         programListDTO.setList(list);
         return Result.success(programListDTO);
+    }
+
+    public Result<ProgramDateListDTO> getDateByUserId(UserInfoBO userInfoBO){
+        Long userId = userInfoBO.getUserId();
+        List<UserProgram> programDateList = userProgramDao.getDateByUserId(userId);
+        List<ProgramDateDTO> list = new ArrayList<>();
+        for (UserProgram userProgram: programDateList){
+            list.add(BeanUtil.copyProperties(userProgram,ProgramDateDTO.class));
+        }
+        ProgramDateListDTO programDateListDTO = new ProgramDateListDTO();
+        programDateListDTO.setList(list);
+        return Result.success(programDateListDTO);
     }
 }

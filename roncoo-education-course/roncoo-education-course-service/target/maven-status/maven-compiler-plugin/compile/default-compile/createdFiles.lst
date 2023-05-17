@@ -165,6 +165,7 @@ com/roncoo/education/course/service/auth/bo/AuthCourseUserStudyLogPageBO.class
 com/roncoo/education/course/service/pc/req/ZoneCourseSaveREQ.class
 com/roncoo/education/course/dao/impl/mapper/entity/CourseUserStudyLogExample$Criteria.class
 com/roncoo/education/course/service/pc/PcApiOrderInfoController.class
+com/roncoo/education/course/feign/FeignProgramController.class
 com/roncoo/education/course/service/pc/PcApiCourseUserStudyLogController.class
 com/roncoo/education/course/service/auth/biz/AuthApiCourseBiz.class
 com/roncoo/education/course/service/pc/resq/CourseChapterViewRESQ.class
@@ -473,6 +474,7 @@ com/roncoo/education/course/service/auth/bo/AuthCourseVideoBO.class
 com/roncoo/education/course/service/api/ApiCourseCategoryController.class
 com/roncoo/education/course/dao/impl/mapper/entity/CourseCategoryExample$Criteria.class
 com/roncoo/education/course/dao/impl/CourseChapterPeriodDaoImpl.class
+com/roncoo/education/course/feign/biz/FeignProgramBiz.class
 com/roncoo/education/course/service/pc/req/CourseCategoryViewREQ.class
 com/roncoo/education/course/dao/impl/mapper/entity/FileStorageExample$GeneratedCriteria.class
 com/roncoo/education/course/service/api/dto/LecturerDTO.class
