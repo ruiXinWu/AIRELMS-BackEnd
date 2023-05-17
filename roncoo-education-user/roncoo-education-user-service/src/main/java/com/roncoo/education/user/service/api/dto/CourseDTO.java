@@ -29,9 +29,17 @@ public class CourseDTO implements Serializable {
 
     private Integer courseStatus;
 
+    private String courseName;
+
     public void setCourseId(UserCourse userCourse){
         this.courseId = userCourse.getCourseId();
         this.courseStatus = userCourse.getCourseStatus();
+    }
+
+    public void setCourse(Long courseId, Integer courseStatus, String courseName){
+        this.courseId = courseId;
+        this.courseStatus = courseStatus;
+        this.courseName = courseName;
     }
     /**
      * 排序

@@ -5,6 +5,7 @@ import com.roncoo.education.common.core.base.Page;
 import com.roncoo.education.course.feign.biz.FeignCourseBiz;
 import com.roncoo.education.course.feign.interfaces.IFeignCourse;
 import com.roncoo.education.course.feign.interfaces.qo.CourseQO;
+import com.roncoo.education.course.feign.interfaces.vo.CourseListVO;
 import com.roncoo.education.course.feign.interfaces.vo.CourseVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -50,6 +51,10 @@ public class FeignCourseController extends BaseController implements IFeignCours
     @Override
     public CourseVO getByCourseId(@PathVariable(value = "id") Long id) {
         return biz.getByCourseId(id);
+    }
+
+    public CourseListVO getCourseByProgramId(@PathVariable(value = "id") Long id) {
+        return biz.getCourseByProgramId(id);
     }
 
 }

@@ -2,6 +2,7 @@ package com.roncoo.education.course.feign.interfaces;
 
 import com.roncoo.education.common.core.base.Page;
 import com.roncoo.education.course.feign.interfaces.qo.CourseQO;
+import com.roncoo.education.course.feign.interfaces.vo.CourseListVO;
 import com.roncoo.education.course.feign.interfaces.vo.CourseVO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -34,5 +35,8 @@ public interface IFeignCourse {
 
     @RequestMapping(value = "/feign/course/course/getByCourseId/{id}", method = RequestMethod.GET)
     CourseVO getByCourseId(@PathVariable(value = "id") Long id);
+
+    @RequestMapping(value = "/feign/course/course/getcoursebyprogram/{id}", method = RequestMethod.GET)
+    CourseListVO getCourseByProgramId(@PathVariable(value = "id") Long id);
 
 }

@@ -14,6 +14,7 @@ import com.roncoo.education.course.dao.impl.mapper.entity.CourseExample.Criteria
 import com.roncoo.education.course.feign.interfaces.qo.CourseQO;
 import com.roncoo.education.course.feign.interfaces.vo.CourseChapterPeriodVO;
 import com.roncoo.education.course.feign.interfaces.vo.CourseChapterVO;
+import com.roncoo.education.course.feign.interfaces.vo.CourseListVO;
 import com.roncoo.education.course.feign.interfaces.vo.CourseVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -178,5 +179,17 @@ public class FeignCourseBiz {
             courseVO.setCourseChapterVOList(courseChapterVOList);
         }
         return courseVO;
+    }
+
+    public CourseListVO getCourseByProgramId(Long id){
+        List<Course> courses = dao.getByProgramIdNoPage(id);
+        List<CourseVO> courseVOList = new ArrayList();
+        for(Course course : courses){
+            CourseVO courseVO = BeanUtil.copyProperties(course, CourseVO.class);
+            courseVOList.add(courseVO);
+        }
+        CourseListVO courseListVO = new CourseListVO();
+        courseListVO.setCourseVOList(courseVOList);
+        return courseListVO;
     }
 }

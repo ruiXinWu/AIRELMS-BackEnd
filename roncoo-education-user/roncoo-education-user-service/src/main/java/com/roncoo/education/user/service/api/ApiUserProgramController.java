@@ -10,6 +10,7 @@ import com.roncoo.education.course.feign.interfaces.IFeignProgram;
 import com.roncoo.education.user.service.api.biz.ApiUserInfoBiz;
 import com.roncoo.education.user.service.api.biz.ApiUserProgramBiz;
 import com.roncoo.education.user.service.api.bo.*;
+import com.roncoo.education.user.service.api.dto.ProgramCourseListDTO;
 import com.roncoo.education.user.service.api.dto.ProgramDateListDTO;
 import com.roncoo.education.user.service.api.dto.ProgramListDTO;
 import com.roncoo.education.user.service.api.dto.UserLoginDTO;
@@ -43,5 +44,11 @@ public class ApiUserProgramController extends BaseController{
     public Result<ProgramDateListDTO> getProgramDateByUserId(@RequestBody UserInfoBO userInfoBO){
         System.out.println("controller5.11");
         return apiUserProgramBiz.getDateByUserId(userInfoBO);
+    }
+
+    @ApiOperation(value = "用户program_course接口", notes = " user->program list -> course list")
+    @RequestMapping(value = "/getprogramcoursebyuserid", method = RequestMethod.POST)
+    public Result<ProgramCourseListDTO> getProgramCourseByUserId(@RequestBody UserInfoBO userInfoBO){
+        return apiUserProgramBiz.getProgramCourseStatusByUserId(userInfoBO);
     }
 }

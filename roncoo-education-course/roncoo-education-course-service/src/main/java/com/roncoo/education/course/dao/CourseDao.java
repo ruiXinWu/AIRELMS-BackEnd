@@ -52,4 +52,6 @@ public interface CourseDao {
     List<Course> listBycategoryId2AndStatusId(Long categoryId2, Integer statusId);
 
     Page<Course> listByProgram(int pageCurrent, int pageSize, CourseExample example);
+
+    public List<Course> getByProgramIdNoPage(Long programId);
 }

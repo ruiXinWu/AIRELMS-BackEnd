@@ -96,7 +96,13 @@ public class CourseDaoImpl implements CourseDao {
         example.setLimitStart(PageUtil.countOffset(pageCurrent, pageSize));
         example.setPageSize(pageSize);
         return new Page<Course>(count, totalPage, pageCurrent, pageSize, this.courseMapper.selectByExample(example));
+    }
 
-
+    public List<Course> getByProgramIdNoPage(Long programId) {
+        CourseExample example = new CourseExample();
+        CourseExample.Criteria c = example.createCriteria();
+        c.andProgramEqualTo(programId);
+        List<Course> courseList = this.courseMapper.selectByExample(example);
+        return courseList;
     }
 }

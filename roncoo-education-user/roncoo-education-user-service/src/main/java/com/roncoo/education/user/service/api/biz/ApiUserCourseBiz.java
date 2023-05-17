@@ -39,7 +39,6 @@ public class ApiUserCourseBiz {
         CourseListDTO courseListDTO = new CourseListDTO();
         courseListDTO.setCourseList(courseDTOList);
         return Result.success(courseListDTO);
-
     }
 
 }
