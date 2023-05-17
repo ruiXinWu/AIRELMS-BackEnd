@@ -7,4 +7,9 @@ import java.util.List;
 @Mapper
 public interface UserProgramMapper {
     List<UserProgram> selectUserProgramByUserId(Long id);
+
+    List<UserProgram> getProgramDateByUserId(Long id);
+
+
+
 }

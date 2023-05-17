@@ -27,5 +27,15 @@ public class UserProgramDaoImpl extends AbstractBaseJdbc implements UserProgramD
         return programIdList;
     }
 
+    public List<UserProgram> getDateByUserId(Long userId){
+        System.out.println("test1");
+        List<UserProgram> userProgramList = this.userProgramMapper.getProgramDateByUserId(userId);
+        return userProgramList;
+    }
+
+
+
+
+
 
 }

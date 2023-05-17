@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -53,7 +53,7 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/bo",
+    "last_opened_file_path": "/Users/wuruixin/AIRE_github/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/resources/mybatis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,19 +66,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/bo" />
-      <recent name="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/biz" />
-      <recent name="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api" />
-      <recent name="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/entity" />
-      <recent name="$PROJECT_DIR$/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.roncoo.education.user.service.api.dto" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Spring Boot.ServerGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
     <configuration name="CourseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="roncoo-education-course-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.roncoo.education.CourseServiceApplication" />
@@ -206,8 +194,6 @@
       <workItem from="1679454231442" duration="606000" />
       <workItem from="1679459055586" duration="656000" />
       <workItem from="1680455240192" duration="21045000" />
-      <workItem from="1681797168500" duration="1568000" />
-      <workItem from="1681845980195" duration="35840000" />
     </task>
     <servers />
   </component>
