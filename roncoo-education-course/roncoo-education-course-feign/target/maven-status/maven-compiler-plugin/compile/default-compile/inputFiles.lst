@@ -1,4 +1,5 @@
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-feign/src/main/java/com/roncoo/education/course/feign/interfaces/qo/CourseRecommendQO.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-feign/src/main/java/com/roncoo/education/course/feign/interfaces/vo/CourseListVO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-feign/src/main/java/com/roncoo/education/course/feign/interfaces/qo/CourseChapterPeriodAuditQO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-feign/src/main/java/com/roncoo/education/course/feign/interfaces/qo/OrderEchartsQO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-feign/src/main/java/com/roncoo/education/course/feign/interfaces/qo/CourseIntroduceQO.java

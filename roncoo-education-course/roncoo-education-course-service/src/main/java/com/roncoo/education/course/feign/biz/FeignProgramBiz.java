@@ -17,6 +17,7 @@ public class FeignProgramBiz {
     private ProgramDao dao;
 
     public ProgramVO getById(Long id){
+        System.out.println("调用FeignProgramBiz");
         if (id == null) {
             throw new BaseException("传入的program id不能为空");
         }

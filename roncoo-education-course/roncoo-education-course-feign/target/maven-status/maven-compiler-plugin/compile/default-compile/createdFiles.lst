@@ -4,6 +4,7 @@ com/roncoo/education/course/feign/interfaces/vo/DicListVO.class
 com/roncoo/education/course/feign/interfaces/IFeignDic.class
 com/roncoo/education/course/feign/interfaces/qo/CourseChapterAuditQO.class
 com/roncoo/education/course/feign/interfaces/qo/OrderPayQO.class
+com/roncoo/education/course/feign/interfaces/vo/CourseListVO.class
 com/roncoo/education/course/feign/interfaces/qo/CourseChapterQO.class
 com/roncoo/education/course/feign/interfaces/vo/CourseChapterPeriodVO.class
 com/roncoo/education/course/feign/interfaces/IFeignProgram.class

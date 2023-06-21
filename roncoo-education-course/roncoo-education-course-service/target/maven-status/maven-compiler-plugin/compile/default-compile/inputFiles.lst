@@ -261,6 +261,7 @@
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/OrderInfoExample.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/auth/bo/AuthCourseSignBO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/auth/bo/AuthCourseChapterAuditSaveBO.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/feign/biz/FeignProgramBiz.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/CourseIntroduceAuditExample.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/service/pc/req/ZoneViewREQ.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/OrderPayDao.java
@@ -278,6 +279,7 @@
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/entity/CourseRecommend.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/feign/biz/FeignCourseChapterBiz.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/CourseDao.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/feign/FeignProgramController.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/CourseAuditMapper.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/mapper/CourseChapterPeriodAuditMapper.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-course/roncoo-education-course-service/src/main/java/com/roncoo/education/course/dao/impl/FileStorageDaoImpl.java

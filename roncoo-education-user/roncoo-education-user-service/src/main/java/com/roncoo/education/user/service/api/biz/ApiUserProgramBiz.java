@@ -4,7 +4,10 @@ import com.roncoo.education.common.core.base.BaseBiz;
 import com.roncoo.education.common.core.base.Result;
 import com.roncoo.education.common.core.tools.BeanUtil;
 
-import com.roncoo.education.course.dao.impl.mapper.entity.Course;
+//import com.roncoo.education.course.dao.impl.mapper.entity.Course;
+import com.roncoo.education.course.dao.impl.mapper.entity.OfficeHour;
+import com.roncoo.education.course.feign.interfaces.IFeignOfficeHour;
+import com.roncoo.education.course.feign.interfaces.vo.OfficeHourVO;
 import com.roncoo.education.course.feign.interfaces.vo.ProgramVO;
 //import com.roncoo.education.course.service.api.biz.ApiProgramBiz;
 import com.roncoo.education.course.feign.interfaces.IFeignProgram;
@@ -41,27 +44,44 @@ public class ApiUserProgramBiz extends BaseBiz {
     private IFeignProgram iFeignProgram;
 
     @Autowired
+    private IFeignOfficeHour iFeignOfficeHour;
+
+    @Autowired
     private IFeignCourse iFeignCourse;
 
-    public Result<ProgramListDTO> getByUserId(Long userId){
+    public Result<ProgramLectureListDTO> getByUserId(Long userId){
         System.out.println("second");
         List<Long> programIdList = userProgramDao.getByUserId(userId);
+
         System.out.println("third");
-        ProgramListDTO programListDTO = new ProgramListDTO();
-        List<ProgramDTO> list = new ArrayList();
+        ProgramLectureListDTO programLectureListDTO = new ProgramLectureListDTO();
+        List<ProgramLectureDTO> list = new ArrayList();
         for(Long programId : programIdList){
             System.out.println(programId);
             ProgramVO programVO = iFeignProgram.getById(programId);
+            OfficeHourVO officeHourVO = iFeignOfficeHour.getByProgramId(programId);
+
+            ProgramLectureDTO programLectureDTO = new ProgramLectureDTO();
+            programLectureDTO.setId(programVO.getId());
+            programLectureDTO.setSort(programVO.getSort());
+            programLectureDTO.setProgramName(programVO.getProgramName());
+            programLectureDTO.setProgramLogo(programVO.getProgramLogo());
+            programLectureDTO.setDescription(programVO.getDescription());
+            programLectureDTO.setLectureId(officeHourVO.getLecturerId());
+            programLectureDTO.setLecturerName(officeHourVO.getLecturerName());
+            programLectureDTO.setHeadImgUrl(officeHourVO.getHeadImgUrl());
+
             if (StringUtils.isEmpty(programVO)) {
                 return Result.error("根据用户编号没找到对应的项目信息!");
             }
-            list.add(BeanUtil.copyProperties(programVO, ProgramDTO.class));
+            list.add(programLectureDTO);
+            //list.add(BeanUtil.copyProperties(programVO, ProgramDTO.class));
             //list.add(BeanUtil.copyProperties(ProgramDTO.class, programVO));
             //ProgramDTO programDTO = apiProgramBiz.getProgramById(programId);
             //list.add(programDTO);
         }
-        programListDTO.setList(list);
-        return Result.success(programListDTO);
+        programLectureListDTO.setList(list);
+        return Result.success(programLectureListDTO);
     }
 
     public Result<ProgramDateListDTO> getDateByUserId(UserInfoBO userInfoBO){

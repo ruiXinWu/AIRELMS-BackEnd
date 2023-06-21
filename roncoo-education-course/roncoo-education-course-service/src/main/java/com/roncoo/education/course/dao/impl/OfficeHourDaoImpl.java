@@ -23,6 +23,7 @@ public class OfficeHourDaoImpl implements OfficeHourDao {
 
     @Override
     public List<OfficeHour> searchByProgramId(Long programId) {
+        System.out.println("Office hour search by program id success");
         return this.officeHourMapper.selectByProgramId(programId);
     }
 }

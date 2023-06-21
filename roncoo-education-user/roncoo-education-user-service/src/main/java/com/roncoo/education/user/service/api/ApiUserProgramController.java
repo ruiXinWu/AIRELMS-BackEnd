@@ -10,10 +10,7 @@ import com.roncoo.education.course.feign.interfaces.IFeignProgram;
 import com.roncoo.education.user.service.api.biz.ApiUserInfoBiz;
 import com.roncoo.education.user.service.api.biz.ApiUserProgramBiz;
 import com.roncoo.education.user.service.api.bo.*;
-import com.roncoo.education.user.service.api.dto.ProgramCourseListDTO;
-import com.roncoo.education.user.service.api.dto.ProgramDateListDTO;
-import com.roncoo.education.user.service.api.dto.ProgramListDTO;
-import com.roncoo.education.user.service.api.dto.UserLoginDTO;
+import com.roncoo.education.user.service.api.dto.*;
 import com.roncoo.education.user.service.auth.bo.UserUpdateBO;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,11 +30,13 @@ public class ApiUserProgramController extends BaseController{
 
     @ApiOperation(value = "用户信息接口", notes = "根据用户ID得到用户拥有的项目")
     @RequestMapping(value = "/getuserprogrambyuserid", method = RequestMethod.POST)
-    public Result<ProgramListDTO> getUserProgramByUserId(@RequestBody UserInfoBO userInfoBO){
+    public Result<ProgramLectureListDTO> getUserProgramByUserId(@RequestBody UserInfoBO userInfoBO){
         System.out.println("Begin");
         System.out.println(userInfoBO.getUserId());
         return apiUserProgramBiz.getByUserId(userInfoBO.getUserId());
     }
+
+
 
     @ApiOperation(value = "用户项目时间接口", notes = "根据用户ID得到用户拥有的项目和项目时间")
     @RequestMapping(value = "/getprogramdatebyuserid", method = RequestMethod.POST)

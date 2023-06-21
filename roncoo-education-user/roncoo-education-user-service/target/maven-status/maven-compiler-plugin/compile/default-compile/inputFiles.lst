@@ -34,6 +34,7 @@
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/auth/bo/AuthUserExtBO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/feign/biz/FeignRegionBiz.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/feign/biz/FeignLecturerBiz.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/dto/ProgramCourseDTO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/feign/FeignUserExtController.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/feign/FeignLecturerAuditController.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/entity/UserLogLogin.java
@@ -42,6 +43,7 @@
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/bo/LecturerViewBO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/bo/UserAuthBO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/resq/LecturerAuditViewRESQ.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/biz/ApiUserCourseBiz.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/biz/PcApiSendSmsLogBiz.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/biz/PcApiLecturerProfitBiz.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/bo/UserRegionProvinceBO.java
@@ -57,6 +59,7 @@
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/entity/LecturerProfitExample.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/auth/bo/AuthLecturerAuditViewBO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/PcApiLecturerProfitController.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/entity/UserCourseExample.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/SendSmsLogMapper.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/req/LecturerAuditSaveREQ.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/entity/UserProgram.java
@@ -72,6 +75,7 @@
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/entity/UserExtExample.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/feign/FeignSendSmsLogController.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/auth/biz/AuthApiLecturerProfitBiz.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/dto/ProgramDTO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/auth/bo/AuthLecturerAuditBO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/UserLogModifiedMapper.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/LecturerProfitDao.java
@@ -81,6 +85,7 @@
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/feign/biz/FeignSendSmsLogBiz.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/PcApiLecturerController.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/biz/ApiRegionBiz.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/entity/UserCourse.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/bo/UserRegionLevelBO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/bo/UserSendCodeBO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/LecturerAuditMapper.java
@@ -93,17 +98,21 @@
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/UserProgramDao.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/entity/SendSmsLogExample.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/auth/bo/AuthLecturerExtBO.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/dto/ProgramLectureListDTO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/UserDaoImpl.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/ApiUserInfoController.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/LecturerProfitMapper.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/auth/bo/AuthUserLogModifiedBO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/bo/UserRegionCityIdBO.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/dto/CourseDTO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/PcApiUserExtController.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/SendSmsLogDao.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/req/PlatformViewREQ.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/feign/FeignLecturerProfitController.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/feign/FeignPlatformController.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/ApiUserProgramController.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/dto/ProgramCourseListDTO.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/dto/ProgramDateListDTO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/UserDao.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/SendSmsLogDaoImpl.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/resq/UserPageRESQ.java
@@ -121,10 +130,13 @@
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/PlatformDao.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/req/LecturerProfitBatchREQ.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/feign/FeignLecturerExtController.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/dto/ProgramDateDTO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/ApiRegionController.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/UserLogModifiedDao.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/UserLogModifiedDaoImpl.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/UserCourseMapper.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/entity/LecturerAuditExample.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/ApiUserCourseController.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/entity/LecturerExtExample.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/dto/RegionListDTO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/feign/FeignUserLogLoginController.java
@@ -142,6 +154,7 @@
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/auth/bo/AuthLecturerAuditSaveBO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/entity/LecturerExample.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/resq/SendSmsLogPageRESQ.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/dto/ProgramLectureDTO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/feign/biz/FeignUserLogModifiedBiz.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/req/UserExtPageREQ.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/entity/UserExt.java
@@ -151,6 +164,7 @@
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/dto/UserLoginDTO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/PcApiUserLoginController.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/req/PlatformUpdateREQ.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/UserCourseDao.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/PcApiPlatformController.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/UserExtDao.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/biz/PcApiLecturerAuditBiz.java
@@ -175,6 +189,7 @@
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/feign/biz/FeignLecturerAuditBiz.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/req/LecturerProfitUpdateREQ.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/auth/bo/AuthLecturerProfitPageBO.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/dto/ProgramListDTO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/entity/Region.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/LecturerExtDao.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/bo/UserRegisterBO.java
@@ -187,9 +202,11 @@
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/auth/dto/AuthLecturerProfitPageDTO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/auth/bo/AuthUserLogLoginBO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/auth/biz/AuthApiLecturerBiz.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/dto/CourseListDTO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/api/dto/LecturerDTO.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/RegionDaoImpl.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/auth/bo/AuthPlatformBO.java
+/Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/UserCourseDaoImpl.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/dao/impl/mapper/RegionMapper.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/req/SendSmsLogSendREQ.java
 /Users/shuxing/Documents/GitHub/AIRELMS-BackEnd/roncoo-education-user/roncoo-education-user-service/src/main/java/com/roncoo/education/user/service/pc/PcApiUserController.java

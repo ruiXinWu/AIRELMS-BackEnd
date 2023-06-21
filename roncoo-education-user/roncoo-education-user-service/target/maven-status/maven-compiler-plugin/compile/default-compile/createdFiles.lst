@@ -1,5 +1,6 @@
 com/roncoo/education/user/dao/impl/mapper/UserMapper.class
 com/roncoo/education/user/common/ReportExcelUtil.class
+com/roncoo/education/user/service/api/dto/ProgramLectureDTO.class
 com/roncoo/education/user/service/auth/biz/AuthApiLecturerBiz.class
 com/roncoo/education/user/service/pc/PcApiPlatformController.class
 com/roncoo/education/user/service/pc/req/PlatformSaveREQ.class
@@ -12,6 +13,7 @@ com/roncoo/education/user/service/pc/resq/UserPageRESQ.class
 com/roncoo/education/user/dao/impl/mapper/entity/RegionExample$Criteria.class
 com/roncoo/education/user/service/auth/dto/AuthUserDTO.class
 com/roncoo/education/user/feign/FeignLecturerProfitController.class
+com/roncoo/education/user/service/api/dto/ProgramCourseListDTO.class
 com/roncoo/education/user/service/pc/req/LecturerPageREQ.class
 com/roncoo/education/user/dao/impl/mapper/entity/LecturerExample.class
 com/roncoo/education/user/dao/impl/mapper/entity/LecturerProfitExample.class
@@ -42,6 +44,7 @@ com/roncoo/education/user/dao/impl/mapper/entity/Platform.class
 com/roncoo/education/user/dao/SendSmsLogDao.class
 com/roncoo/education/user/service/pc/biz/PcApiUserLoginBiz.class
 com/roncoo/education/user/service/api/bo/UserAuthBO.class
+com/roncoo/education/user/dao/impl/mapper/entity/UserCourseExample$GeneratedCriteria.class
 com/roncoo/education/user/feign/FeignLecturerController.class
 com/roncoo/education/user/dao/UserExtDao.class
 com/roncoo/education/user/service/pc/resq/UserExtViewRESQ.class
@@ -53,14 +56,17 @@ com/roncoo/education/user/service/api/ApiRegionController.class
 com/roncoo/education/user/service/api/bo/UserInfoBO.class
 com/roncoo/education/user/dao/impl/mapper/entity/Lecturer.class
 com/roncoo/education/user/dao/impl/LecturerExtDaoImpl.class
+com/roncoo/education/user/service/api/dto/ProgramDateListDTO.class
 com/roncoo/education/user/service/auth/bo/AuthLecturerBO.class
 com/roncoo/education/user/service/api/bo/RegionBO.class
 com/roncoo/education/user/dao/impl/mapper/entity/UserLogLoginExample$Criterion.class
 com/roncoo/education/user/dao/LecturerExtDao.class
+com/roncoo/education/user/dao/impl/mapper/entity/UserCourse.class
 com/roncoo/education/user/feign/FeignUserExtController.class
 com/roncoo/education/user/feign/biz/FeignUserLogModifiedBiz.class
 com/roncoo/education/user/dao/impl/mapper/entity/LecturerExtExample$Criterion.class
 com/roncoo/education/user/service/auth/bo/AuthUserExtBankBO.class
+com/roncoo/education/user/dao/impl/mapper/entity/UserCourseExample.class
 com/roncoo/education/user/dao/impl/mapper/RegionMapper.class
 com/roncoo/education/user/service/api/bo/UserLoginPasswordBO.class
 com/roncoo/education/user/dao/impl/mapper/entity/UserExtExample$Criteria.class
@@ -68,6 +74,7 @@ com/roncoo/education/user/dao/impl/LecturerDaoImpl.class
 com/roncoo/education/user/service/pc/biz/PcApiLecturerBiz.class
 com/roncoo/education/user/dao/impl/mapper/entity/UserExtExample$Criterion.class
 com/roncoo/education/user/service/pc/biz/PcApiUserBiz.class
+com/roncoo/education/user/dao/impl/mapper/entity/UserCourseExample$Criteria.class
 com/roncoo/education/user/service/api/ApiUserInfoController.class
 com/roncoo/education/user/dao/impl/mapper/entity/LecturerExtExample$Criteria.class
 com/roncoo/education/user/service/pc/SendEmail$1.class
@@ -117,6 +124,7 @@ com/roncoo/education/user/service/auth/bo/AuthPlatformBO.class
 com/roncoo/education/user/dao/impl/mapper/entity/UserExtExample$GeneratedCriteria.class
 com/roncoo/education/user/service/auth/dto/AuthLecturerAuditDTO.class
 com/roncoo/education/user/service/pc/req/LecturerAuditSaveREQ.class
+com/roncoo/education/user/service/api/dto/CourseListDTO.class
 com/roncoo/education/user/service/pc/req/UserPageREQ.class
 com/roncoo/education/user/dao/impl/mapper/entity/UserLogLoginExample$Criteria.class
 com/roncoo/education/user/dao/impl/mapper/LecturerExtMapper.class
@@ -130,6 +138,7 @@ com/roncoo/education/user/service/pc/PcApiUserController.class
 com/roncoo/education/user/dao/impl/mapper/entity/PlatformExample$Criteria.class
 com/roncoo/education/user/service/api/bo/UserRegionCityIdBO.class
 com/roncoo/education/user/service/pc/resq/LecturerAuditViewRESQ.class
+com/roncoo/education/user/service/api/dto/ProgramDateDTO.class
 com/roncoo/education/user/service/pc/biz/PcApiPlatformBiz.class
 com/roncoo/education/user/dao/impl/mapper/PlatformMapper.class
 com/roncoo/education/user/service/auth/bo/AuthUserExtViewBO.class
@@ -143,6 +152,7 @@ com/roncoo/education/user/service/auth/dto/AuthLecturerProfitPageDTO.class
 com/roncoo/education/user/dao/impl/mapper/entity/LecturerAudit.class
 com/roncoo/education/user/feign/biz/FeignLecturerAuditBiz.class
 com/roncoo/education/user/service/auth/bo/AuthLecturerAuditSaveBO.class
+com/roncoo/education/user/service/api/ApiUserCourseController.class
 com/roncoo/education/user/service/pc/req/SendSmsLogPageREQ.class
 com/roncoo/education/user/dao/impl/mapper/UserExtMapper.class
 com/roncoo/education/user/service/pc/resq/PlatformViewRESQ.class
@@ -159,6 +169,7 @@ com/roncoo/education/user/service/auth/AuthApiLecturerController.class
 com/roncoo/education/user/dao/impl/mapper/entity/PlatformExample$GeneratedCriteria.class
 com/roncoo/education/user/dao/impl/mapper/entity/UserProgram.class
 com/roncoo/education/user/dao/impl/mapper/LecturerAuditMapper.class
+com/roncoo/education/user/dao/impl/mapper/entity/UserCourseExample$Criterion.class
 com/roncoo/education/user/dao/impl/mapper/entity/User.class
 com/roncoo/education/user/service/api/bo/UserLoginCodeBO.class
 com/roncoo/education/user/service/pc/req/UserExtPageREQ.class
@@ -172,6 +183,7 @@ com/roncoo/education/user/service/api/ApiUserProgramController.class
 com/roncoo/education/user/dao/impl/mapper/entity/UserLogModifiedExample$Criteria.class
 com/roncoo/education/user/service/pc/req/LecturerProfitBatchREQ.class
 com/roncoo/education/user/service/api/dto/RegionListDTO.class
+com/roncoo/education/user/dao/UserCourseDao.class
 com/roncoo/education/user/service/auth/dto/AuthLecturerAuditViewDTO.class
 com/roncoo/education/user/dao/impl/mapper/entity/Region.class
 com/roncoo/education/user/service/pc/req/LecturerProfitUpdateREQ.class
@@ -196,14 +208,18 @@ com/roncoo/education/user/dao/impl/LecturerProfitDaoImpl.class
 com/roncoo/education/user/service/api/dto/ProgramDTO.class
 com/roncoo/education/user/service/auth/bo/AuthUserLogModifiedBO.class
 com/roncoo/education/user/dao/impl/mapper/entity/LecturerAuditExample.class
+com/roncoo/education/user/service/api/dto/ProgramLectureListDTO.class
 com/roncoo/education/user/feign/FeignLecturerAuditController.class
 com/roncoo/education/user/service/auth/AuthApiLecturerProfitController.class
+com/roncoo/education/user/dao/impl/mapper/UserCourseMapper.class
 com/roncoo/education/user/service/api/bo/UserRegisterBO.class
 com/roncoo/education/user/dao/impl/mapper/entity/SendSmsLogExample$Criterion.class
+com/roncoo/education/user/service/api/dto/CourseDTO.class
 com/roncoo/education/user/service/pc/resq/PlatformPageRESQ.class
 com/roncoo/education/user/service/pc/req/PlatformViewREQ.class
 com/roncoo/education/user/feign/biz/FeignLecturerBiz.class
 com/roncoo/education/user/service/pc/resq/UserExtPageRESQ.class
+com/roncoo/education/user/dao/impl/UserCourseDaoImpl.class
 com/roncoo/education/user/feign/biz/FeignLecturerExtBiz.class
 com/roncoo/education/user/dao/impl/UserLogModifiedDaoImpl.class
 com/roncoo/education/user/service/pc/biz/PcApiUserExtBiz.class
@@ -216,6 +232,7 @@ com/roncoo/education/user/dao/impl/mapper/LecturerProfitMapper.class
 com/roncoo/education/user/feign/biz/FeignRegionBiz.class
 com/roncoo/education/user/service/pc/PcApiLecturerController.class
 com/roncoo/education/user/service/auth/biz/AuthApiLecturerAuditBiz.class
+com/roncoo/education/user/service/api/biz/ApiUserCourseBiz.class
 com/roncoo/education/user/dao/impl/SendSmsLogDaoImpl.class
 com/roncoo/education/user/feign/biz/FeignUserExtBiz.class
 com/roncoo/education/user/feign/FeignUserController.class
@@ -232,3 +249,4 @@ com/roncoo/education/user/dao/impl/mapper/entity/UserExample$Criteria.class
 com/roncoo/education/user/dao/impl/mapper/entity/LecturerProfitExample$Criterion.class
 com/roncoo/education/user/dao/impl/mapper/entity/LecturerExtExample$GeneratedCriteria.class
 com/roncoo/education/user/dao/impl/RegionDaoImpl.class
+com/roncoo/education/user/service/api/dto/ProgramCourseDTO.class
